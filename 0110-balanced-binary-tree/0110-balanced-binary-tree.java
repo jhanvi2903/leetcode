@@ -30,6 +30,7 @@ class Solution {
         int right = height(root.right);
         if(right == -1) return -1;
 
+        // If left - right > 1 , not the balanced tree
         if(Math.abs(left - right) > 1) return -1;
 
         return 1 + Math.max(left, right);
