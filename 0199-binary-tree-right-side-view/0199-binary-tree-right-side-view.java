@@ -32,7 +32,8 @@ class Solution {
             for(int i = 0; i < n; i++){
                 TreeNode curr = q.poll();
 
-                if(i == n-1) result.add(curr.val);
+//Adding Rightmost element as it is present at the last position in the queue
+                if(i == n-1) result.add(curr.val); 
 
                 if(curr.left != null) q.offer(curr.left);
                 if(curr.right != null) q.offer(curr.right);
