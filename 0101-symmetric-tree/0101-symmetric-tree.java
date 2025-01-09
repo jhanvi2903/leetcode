@@ -19,12 +19,12 @@ class Solution {
     }
 
     public boolean helper(TreeNode leftTree, TreeNode rightTree){
-        // If both the subtree are null, then symmetric 
+        // Base condition 1: If both the subtree are null, then symmetric 
         if(leftTree == null && rightTree == null){
             return true;
         }
 
-        // If any node among them is null, then not symmetric
+        // Base condition 1: If any node among them is null, then not symmetric
         if(leftTree == null || rightTree == null){
             return false;
         }
