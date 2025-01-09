@@ -15,8 +15,22 @@
  */
 class Solution {
     public int maxDepth(TreeNode root) {
-        //Using level order traversal
-       Queue<TreeNode> q = new LinkedList<>();
+        
+        return usingDFS(root);
+    }
+
+    private int usingDFS(TreeNode root) {
+         if(root == null) return 0;
+
+         int leftHeight = usingDFS(root.left);
+         int rightHeight = usingDFS(root.right);
+
+         return 1 + Math.max(leftHeight, rightHeight);
+    }
+
+    //1st way Using level order traversal
+    private int usingLevelOrder(TreeNode root) {
+        Queue<TreeNode> q = new LinkedList<>();
        int counter = 0;
 
        if(root == null){
@@ -36,6 +50,6 @@ class Solution {
             }
         }
 
-        return counter;      
+        return counter;
     }
 }
