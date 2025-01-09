@@ -25,8 +25,12 @@ class Solution {
         if(p == null || q == null){
             return false;
         }
+        
+        boolean checkLeftTree = isSameTree(p.left, q.left);
+        boolean checkRightTree = isSameTree(p.right, q.right);
+
 
           //using pre-order traversal
-        return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+        return (p.val == q.val) && checkLeftTree  && checkRightTree;
     }
 }
