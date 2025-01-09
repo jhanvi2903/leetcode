@@ -15,16 +15,18 @@
  */
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        //using pre-order traversal
 
+        // If both the nodes are null
         if(p == null && q == null){
             return true;
         }
 
+       // If either one node is null
         if(p == null || q == null){
             return false;
         }
 
+          //using pre-order traversal
         return (p.val == q.val) && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
