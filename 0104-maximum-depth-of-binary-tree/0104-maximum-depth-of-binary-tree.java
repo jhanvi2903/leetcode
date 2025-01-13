@@ -19,6 +19,7 @@ class Solution {
         return usingDFS(root);
     }
 
+    //2nd way: Using DFS recursion
     private int usingDFS(TreeNode root) {
          if(root == null) return 0;
 
