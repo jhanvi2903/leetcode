@@ -29,14 +29,17 @@ class Solution {
             List<Integer> sublist = new LinkedList<Integer>();
             
             for(int i = 0; i < queueSize; i++){
-                if(queue.peek().left != null){
-                    queue.offer(queue.peek().left);
+                TreeNode curr = queue.poll();
+                sublist.add(curr.val);
+
+                if(curr.left != null){
+                    queue.offer(curr.left);
                 }
-                if(queue.peek().right != null){
-                    queue.offer(queue.peek().right);
+                if(curr.right != null){
+                    queue.offer(curr.right);
                 }
 
-                sublist.add(queue.poll().val);
+                
             }
 
             result.add(sublist);
