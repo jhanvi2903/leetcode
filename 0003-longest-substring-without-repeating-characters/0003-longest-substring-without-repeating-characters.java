@@ -8,7 +8,7 @@ class Solution {
         for(int i = 0 ; i < s.length(); i++){
 
             if(hm.containsKey(s.charAt(i))){
-                left = Math.max(hm.get(s.charAt(i)) + 1, left);
+                left = Math.max(left, hm.get(s.charAt(i)) + 1);
             }
 
             hm.put(s.charAt(i), i);
