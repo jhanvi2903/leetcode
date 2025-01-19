@@ -4,6 +4,7 @@ class Solution {
         int maxLen = 0;
         int left = 0;
 
+        // Sliding Window + 2 Pointer
         for(int i = 0; i < nums.length; i++){
             if(nums[i] == 0){
                 countZero++;
