@@ -9,13 +9,12 @@ class Solution {
                 countZero++;
             }
 
-            while(countZero > k){
-                    if(nums[left] == 0) countZero--;
+            if(countZero <= k){
+                maxLen = Math.max(maxLen, i - left + 1);
+            } else {
+                if(nums[left] == 0) countZero--;
                     left ++;
-                }
-
-            if(countZero <= k) maxLen = Math.max(maxLen, i - left + 1);
-          
+            }
         }
 
        return maxLen;
