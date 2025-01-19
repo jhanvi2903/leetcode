@@ -9,15 +9,14 @@ class Solution {
                 countZero++;
             }
 
-            if(countZero <= k) {
-               int len = i - left + 1;
-               maxLen = Math.max(maxLen, len);
-            } else {
-                while(countZero > k){
+            while(countZero > k){
                     if(nums[left] == 0) countZero--;
                     left ++;
                 }
-            }
+
+            
+               maxLen = Math.max(maxLen, i - left + 1);
+          
         }
 
        return maxLen;
