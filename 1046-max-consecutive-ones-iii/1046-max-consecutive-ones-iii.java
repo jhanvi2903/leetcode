@@ -14,8 +14,7 @@ class Solution {
                     left ++;
                 }
 
-            
-               maxLen = Math.max(maxLen, i - left + 1);
+            if(countZero <= k) maxLen = Math.max(maxLen, i - left + 1);
           
         }
 
