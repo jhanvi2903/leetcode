@@ -5,13 +5,13 @@ class Solution {
         int left = 0;
 
         // Sliding Window + 2 Pointer
-        for(int i = 0; i < nums.length; i++){
-            if(nums[i] == 0){
+        for(int right = 0; right < nums.length; right++){
+            if(nums[right] == 0){
                 countZero++;
             }
 
             if(countZero <= k){
-                maxLen = Math.max(maxLen, i - left + 1);
+                maxLen = Math.max(maxLen, right - left + 1);
             } else {
                 if(nums[left] == 0) countZero--;
                     left ++;
