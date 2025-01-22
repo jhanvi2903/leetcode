@@ -4,8 +4,8 @@ class Solution {
         // 1. Odd length - aba
         // 2. Even length - abba
         // Considering i at b in both the ways
-        // In first case, it will compare with itself and move to the left & right
-        // In second case, it compares with the next b, as they are equal, left moves to left & right moves to right
+        // In first case, it will compare with itself and move to the left & right of i
+        // In second case, it compares with the next b, as they are equal, left moves to left of i & right moves to right of i+1
         if(s == null || s.length() == 1){
             return s;
         } 
