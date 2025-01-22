@@ -10,7 +10,7 @@ class Solution {
             return s;
         } 
 
-// To maintain the end of the longest substring palindrome
+// To maintain the start & end index of the longest substring palindrome
         int start = 0;
         int end = 0;
 
