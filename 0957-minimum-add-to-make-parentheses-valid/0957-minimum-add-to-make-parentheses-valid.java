@@ -10,8 +10,8 @@ class Solution {
             }else {
                 if(st.isEmpty()){
                    count ++;
-                }else if(!st.isEmpty() && st.pop() == '(' && cc != ')'){
-                   count++;
+                }else if(!st.isEmpty() && st.peek() == '(' && cc == ')'){
+                   st.pop();
                 }
             }
         }
