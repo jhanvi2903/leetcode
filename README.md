@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/jhanvi2903/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Tree
 |  |
 | ------- |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jhanvi2903/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/jhanvi2903/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 ## Sliding Window
 |  |
 | ------- |
@@ -148,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
+## Greedy
+|  |
+| ------- |
+| [0957-minimum-add-to-make-parentheses-valid](https://github.com/jhanvi2903/leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 <!---LeetCode Topics End-->
