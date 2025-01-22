@@ -8,7 +8,7 @@ class Solution {
             if(cc == '('){
                  st.push(cc);
             }else {
-                if(st.isEmpty()){
+                if(st.isEmpty()){ 
                    count ++;
                 }else if(!st.isEmpty() && st.peek() == '(' && cc == ')'){
                    st.pop();
