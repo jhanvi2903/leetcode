@@ -5,13 +5,13 @@ class Solution {
         int count = 0;
 
         for(char cc: c){
-            if(cc == '(' || cc == '[' || cc == '{'){
+            if(cc == '('){
                  st.push(cc);
             }else {
                 if(st.isEmpty()){
                    count ++;
                 }else if(!st.isEmpty() && st.pop() == '(' && cc != ')'){
-                    count++;
+                   count++;
                 }
             }
         }
