@@ -34,7 +34,7 @@ class Solution {
         int rootVal = preorder[preStart];
         TreeNode root = new TreeNode(rootVal);
 
-        int mid = hm.get(rootVal);
+        int mid = hm.get(rootVal); // Index of the root in inorder
         int nums = mid - inStart; // Number of elements on the left subtree in inorder
 
         root.left = build(inorder, inStart, mid - 1, preorder, preStart + 1, preStart + nums);
