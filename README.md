@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/jhanvi2903/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/jhanvi2903/leetcode/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/jhanvi2903/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/jhanvi2903/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -184,4 +185,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+## Recursion
+|  |
+| ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/jhanvi2903/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 <!---LeetCode Topics End-->
