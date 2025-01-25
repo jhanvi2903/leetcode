@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
+| [1036-rotting-oranges](https://github.com/jhanvi2903/leetcode/tree/master/1036-rotting-oranges) |
 ## Binary Search
 |  |
 | ------- |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0805-escape-the-ghosts](https://github.com/jhanvi2903/leetcode/tree/master/0805-escape-the-ghosts) |
 | [0966-binary-subarrays-with-sum](https://github.com/jhanvi2903/leetcode/tree/master/0966-binary-subarrays-with-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/jhanvi2903/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1036-rotting-oranges](https://github.com/jhanvi2903/leetcode/tree/master/1036-rotting-oranges) |
 | [1046-max-consecutive-ones-iii](https://github.com/jhanvi2903/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Sorting
 |  |
@@ -191,4 +193,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/jhanvi2903/leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+## Matrix
+|  |
+| ------- |
+| [1036-rotting-oranges](https://github.com/jhanvi2903/leetcode/tree/master/1036-rotting-oranges) |
 <!---LeetCode Topics End-->
