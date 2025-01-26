@@ -26,7 +26,7 @@ class Solution {
             for(int[] dir : directions) {
                 int x = i + dir[0];
                 int y = j + dir[1];
-                if(x >= 0 && x < row && y >= 0 && y < col && mat[x][y] == 1 && vis[x][y] != 1) {
+                if(x >= 0 && x < row && y >= 0 && y < col && vis[x][y] != 1) {
                   q.add(new int[]{x, y, d + mat[x][y]});
                   vis[x][y] = 1;
                 }
