@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/jhanvi2903/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/jhanvi2903/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0662-maximum-width-of-binary-tree) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/jhanvi2903/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0733-flood-fill](https://github.com/jhanvi2903/leetcode/tree/master/0733-flood-fill) |
 | [0805-escape-the-ghosts](https://github.com/jhanvi2903/leetcode/tree/master/0805-escape-the-ghosts) |
@@ -179,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 ## Greedy
 |  |
 | ------- |
@@ -199,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/jhanvi2903/leetcode/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/jhanvi2903/leetcode/tree/master/1036-rotting-oranges) |
 <!---LeetCode Topics End-->
