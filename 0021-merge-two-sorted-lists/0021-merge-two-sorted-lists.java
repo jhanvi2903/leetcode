@@ -44,6 +44,7 @@ class Solution {
             } 
         }
 
+        // Check if any of the list is not traversed, join it by tails next
         if(list1 != null) {
             tail.next = list1;
         } else {
