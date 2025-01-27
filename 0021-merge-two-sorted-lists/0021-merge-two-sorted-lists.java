@@ -21,6 +21,7 @@ class Solution {
             return list1;
         }
 
+        // Decide where the head should point
         if(list1.val <= list2.val) {
            head = tail = list1;
            list1 = list1.next;
@@ -30,6 +31,7 @@ class Solution {
 
         }
 
+        // Keep moving tail based on the condition
         while(list1 != null && list2 != null) {
             if(list1.val <= list2.val) {
                 tail.next = list1;
