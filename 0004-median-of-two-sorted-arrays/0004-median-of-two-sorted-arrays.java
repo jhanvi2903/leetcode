@@ -1,6 +1,9 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
+        // Using Brute Force - extra space & sorting
+        // Time complexity = O((m + n)* log(m + n))
+        //Space complexity = O(m + n)
         int[] result = new int[nums1.length + nums2.length]; // using more space
         int k = 0;
         double median = 0;
