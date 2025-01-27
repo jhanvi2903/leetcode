@@ -1,32 +1,39 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
-        // Using Brute Force - extra space & sorting
-        // Time complexity = O((m + n)* log(m + n))
-        //Space complexity = O(m + n)
-        int[] result = new int[nums1.length + nums2.length]; // using more space
-        int k = 0;
+        // Using 2 pointers
+        int len1 = nums1.length;
+        int len2 = nums2.length;
+        int count1 = 0, count2 = 0;
+        int m1 = 0, m2 = 0;
         double median = 0;
 
-        for(int i = 0; i < nums1.length; i++) {
-            result[k++] = nums1[i];
+        for(int i = 0; i <= (len1 + len2)/ 2; i++) {
+            m2 = m1;
+            if(count1 < len1 && count2 < len2) {
+                if(nums1[count1] < nums2[count2]){
+                    m1 = nums1[count1];
+                    count1++;
+                } else {
+                    m1 = nums2[count2];
+                    count2++;
+                }
+            } else if (count1 < len1) {
+                m1 = nums1[count1];
+                count1++;
+            } else {
+                m1 = nums2[count2];
+                count2++;
+            }
         }
 
-        for(int j = 0; j < nums2.length; j++) {
-            result[k++] = nums2[j];
-        }
-
-        Arrays.sort(result);
-        int len = result.length;
-
-        if(len % 2 == 1) {
-            median = (double)result[len / 2];
+        if((len1 + len2) % 2 == 1) {
+            median = (double)m1;
         } else {
-            int firstNum = result[len / 2 - 1];
-            int secNum = result[len / 2];
-            median = (double)(firstNum + secNum) / 2;
+            median = (double) (m1 + m2)/2;
         }
 
-      return median;
+
+       return median;
     }
 }
