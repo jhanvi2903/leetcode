@@ -6,6 +6,7 @@ class Solution {
         int[][] vis = new int[row][col];
         int count = 0;
 
+       // Traverse 1st col & last col
         for(int i = 0; i < row; i++) {
             if(grid[i][0] == 1 && vis[i][0] != 1) {
               dfs(grid, vis, i, 0);
@@ -16,6 +17,7 @@ class Solution {
             }
         }
 
+        // Traverse 1st row & last row
         for(int j = 0; j < col; j++) {
             if(grid[0][j] == 1 && vis[0][j] != 1) {
                 dfs(grid, vis, 0, j);
