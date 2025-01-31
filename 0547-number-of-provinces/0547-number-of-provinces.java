@@ -4,7 +4,8 @@ class Solution {
         int rows = isConnected.length;
         int col = isConnected[0].length;
 
-        for(int i = 0; i < isConnected.length; i++){
+        // Creating empty lists(Equal to no of rows/nodes) in list
+        for(int i = 0; i < rows; i++){
            adj.add(new ArrayList());
         }
 
@@ -18,7 +19,7 @@ class Solution {
         }
 
         int countProvince = 0;
-        boolean[] vis = new boolean[adj.size()+1]; 
+        boolean[] vis = new boolean[adj.size()]; 
         for(int i = 0; i < adj.size(); i++){
             if(vis[i] == false){
                 countProvince++;
