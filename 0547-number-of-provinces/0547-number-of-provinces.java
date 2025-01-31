@@ -9,6 +9,7 @@ class Solution {
            adj.add(new ArrayList());
         }
 
+        // Adding the adjacent nodes in the list from matrix
         for(int i = 0; i < rows; i++){
             for(int j= 0; j < col; j++){
                 if(isConnected[i][j] == 1 && i != j){ 
@@ -33,6 +34,7 @@ class Solution {
     private void dfs(int i, boolean[] vis, List<List<Integer>> adj){
          
          vis[i] = true;
+         
          for(Integer el : adj.get(i)){
              if(vis[el] == false){
                 dfs(el, vis, adj);
