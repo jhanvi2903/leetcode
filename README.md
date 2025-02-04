@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
 | [0145-binary-tree-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/jhanvi2903/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/jhanvi2903/leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0543-diameter-of-binary-tree) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/jhanvi2903/leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/jhanvi2903/leetcode/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -156,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
@@ -181,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/jhanvi2903/leetcode/tree/master/0547-number-of-provinces) |
 | [1073-number-of-enclaves](https://github.com/jhanvi2903/leetcode/tree/master/1073-number-of-enclaves) |
 ## Graph
@@ -238,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/jhanvi2903/leetcode/tree/master/0733-flood-fill) |
