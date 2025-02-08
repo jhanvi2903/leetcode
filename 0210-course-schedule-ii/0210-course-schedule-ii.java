@@ -40,8 +40,7 @@ class Solution {
         if(processedCourses != numCourses) {
             return new int[0];
         }
-
-       
+      
         return result;
     }
 }
