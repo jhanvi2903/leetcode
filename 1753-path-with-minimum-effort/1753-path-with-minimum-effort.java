@@ -19,6 +19,10 @@ class Solution {
             int row = pair[1];
             int col = pair[2];
 
+            if (d > dis[row][col]) continue;
+
+            if (row == dis.length - 1 && col == dis[0].length - 1) return d;
+
             for(int[] dir : directions) {
                 int r = row + dir[0];
                 int c = col + dir[1];
@@ -33,6 +37,6 @@ class Solution {
             }
         }
 
-        return dis[dis.length - 1][dis[0].length - 1];
+        return -1;
     }
 }
