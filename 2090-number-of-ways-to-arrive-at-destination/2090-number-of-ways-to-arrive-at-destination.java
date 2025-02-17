@@ -25,7 +25,6 @@ class Solution {
         pq.offer(new long[] {0, 0});
         minDis[0] = 0;
         paths[0] = 1;
-        int MOD = 1_000_000_007 ;
         while(!pq.isEmpty()) {
             long[] curr = pq.poll();
             long d = curr[0];
