@@ -20,7 +20,7 @@ class Solution {
             }
         }
 
-        int countProvince = 0; // Counts disconnected component
+        int countProvince = 0; // Counts total disconnected component
         boolean[] vis = new boolean[adj.size()]; 
         for(int i = 0; i < adj.size(); i++){
             if(vis[i] == false){
