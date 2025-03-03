@@ -16,12 +16,11 @@ class Solution {
                 int[] curr = q.poll();
                 int x = curr[0];
                 int y = curr[1];
-                image[x][y] = color;
                 for(int[] dir: directions) {
                     int i = x + dir[0];
                     int j = y + dir[1];
                     if(i >= 0 && i < image.length && j >= 0 && j < image[0].length && image[i][j] == originalColor) {
-                       
+                        image[i][j] = color;
                         q.offer(new int[] {i, j});
                     }
                 }
