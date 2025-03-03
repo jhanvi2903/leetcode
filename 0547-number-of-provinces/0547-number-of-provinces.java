@@ -10,6 +10,7 @@ class Solution {
         }
 
         // Adding the adjacent nodes in the list from matrix
+        //Note: Eliminate self loop
         for(int i = 0; i < rows; i++){
             for(int j= 0; j < col; j++){
                 if(isConnected[i][j] == 1 && i != j){ 
@@ -19,7 +20,7 @@ class Solution {
             }
         }
 
-        int countProvince = 0;
+        int countProvince = 0; // Counts disconnected component
         boolean[] vis = new boolean[adj.size()]; 
         for(int i = 0; i < adj.size(); i++){
             if(vis[i] == false){
