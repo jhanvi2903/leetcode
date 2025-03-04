@@ -4,7 +4,7 @@ class Solution {
         int row = grid.length;
         int col = grid[0].length;
         int[][] vis = new int[row][col];
-        int count = 0;
+        int countEnclosedOnes = 0;
 
        // Traverse 1st col & last col
         for(int i = 0; i < row; i++) {
@@ -31,12 +31,12 @@ class Solution {
         for(int i = 0; i < grid.length; i++) {
             for(int j = 0; j < grid[0].length; j++){
                 if(vis[i][j] != 1 && grid[i][j] == 1){
-                    count++;
+                    countEnclosedOnes++;
                 }
             }
         }
 
-       return count;
+       return countEnclosedOnes;
     }
 
     private void dfs(int[][] grid, int[][] vis, int row, int col) {
