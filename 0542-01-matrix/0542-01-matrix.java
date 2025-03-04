@@ -21,11 +21,12 @@ class Solution {
             int i = curr[0];
             int j = curr[1];
             int d = curr[2];
-            dis[i][j] = d; 
+            dis[i][j] = d; //Add distance in distance matrix
 
             for(int[] dir : directions) {
                 int x = i + dir[0];
                 int y = j + dir[1];
+                //Add in queue if the cell is not out of bound & never visited
                 if(x >= 0 && x < row && y >= 0 && y < col && vis[x][y] != 1) {
                   q.add(new int[]{x, y, d + 1});
                   vis[x][y] = 1;
