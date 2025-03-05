@@ -10,10 +10,11 @@ class Solution {
     }
 
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        HashSet<String> hs = new HashSet<>(wordList);
+        HashSet<String> hs = new HashSet<>(wordList); // For searching in O(1)
         Queue<Pair> q = new LinkedList<>();
         int levelCount = 1;
 
+         // No end word = no transformation required
          if(!hs.contains(endWord)) {
             return 0;
         }
@@ -26,7 +27,7 @@ class Solution {
             String w = p.word;
             levelCount = p.level;
 
-            if(w.equals(endWord)) return levelCount;
+            if(w.equals(endWord)) return levelCount; // Early return
             
             for(int i = 0; i < w.length(); i++){
                 char[] wordArr = w.toCharArray();
