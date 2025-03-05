@@ -3,6 +3,7 @@ class Solution {
       int rows = graph.length;
       int[] color = new int[graph.length]; // ~visited node array
 
+    // Note : Used 2 colors ahead = 0 & 1
     for(int i = 0; i < color.length; i++) {
         color[i] = -1;
     }
