@@ -12,7 +12,7 @@ class Solution {
        for(int[] prerequisite : prerequisites) {
            int v = prerequisite[0];
            int u = prerequisite[1];
-           indegree[v]++; // Adding indegree of the first node in array as there is an edge from v to u
+           indegree[v]++; // Adding indegree as there is an edge from u to v
            adj.get(u).add(v);
        }
 
