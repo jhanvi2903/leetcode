@@ -42,12 +42,7 @@ class Solution {
             }   
         }
 
-        // If all courses are not finished , return empty array
-        if(finishedCourses != numCourses) {
-            return new int[0];
-        }
-      
-        // If all courses are finished, return order
-        return resultCourseOrder;
+        // If all courses are finished, return order else return empty array
+        return finishedCourses == numCourses ? resultCourseOrder : new int[0];
     }
 }
