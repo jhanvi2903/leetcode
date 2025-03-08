@@ -1,8 +1,8 @@
 class Solution {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        // Needed: Firstly to identify source node then to process all the incoming edges from other nodes 
+        // Needed: Firstly to identify source node and then to process all the incoming edges from other nodes 
         int[] indegree = new int[numCourses];
-        
+
        List<List<Integer>> adj = new ArrayList<>();
 
        for(int i = 0; i < numCourses; i++) {
