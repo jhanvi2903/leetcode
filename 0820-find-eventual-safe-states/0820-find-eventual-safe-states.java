@@ -1,41 +1,33 @@
 class Solution {
-    // Using BFS - outdegree array & incoming edge adj list
+// DFS : using state array
+//Nodes in a cycle cannot reach a terminal node, so they are not safe.
+//A safe node always leads to a terminal node or other safe nodes.
+//Detecting cycles helps us exclude unsafe nodes and find all safe ones.
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        List<List<Integer>> adj = new ArrayList<>();
-         int[] outdegree = new int[graph.length];
+        int totalNodes = graph.length;
+        int[] state = new int[totalNodes]; // 0: unvisited, 1: visiting, 2: safe
+        List<Integer> safeNodes = new ArrayList<>();
 
-        for(int i = 0; i < graph.length; i++) {
-            adj.add(new ArrayList<>());
-        }
-        
-        for(int i = 0; i < graph.length; i++) {
-            for(int j = 0; j < graph[i].length; j++) {
-                outdegree[i]++; // total outdegree edges
-                adj.get(graph[i][j]).add(i); // reverse links - incoming edges nodes
-               
+        for (int i = 0; i < totalNodes; i++) {
+            if (dfs(graph, i, state)) {
+               safeNodes.add(i);
             }
         }
 
-        Queue<Integer> q = new LinkedList<>();
-        for(int i = 0; i < outdegree.length; i++) {
-            if(outdegree[i] == 0) q.offer(i);
+        return safeNodes;
+    }
+
+    private boolean dfs(int[][] graph, int node, int[] state) {
+        // if 2 = Already safe, or else  1 = visited but not safe
+        if(state[node] > 0) return state[node] == 2;
+
+        state[node] = 1; // Marked visited
+
+        for(int adjNode : graph[node]) {
+            if(state[adjNode] == 1 || !dfs(graph, adjNode, state)) return false; // Cycle detected
         }
 
-       // Processing all the adjacent nodes of the terminal node
-       // If the adjacent node has only one edge to the terminal node, then it will be added to queue
-       List<Integer> result = new ArrayList<>();
-        while(!q.isEmpty()) {
-            int safeNode = q.poll();
-            result.add(safeNode);
-
-            for(int adjNode : adj.get(safeNode)){
-                outdegree[adjNode]--;
-                if(outdegree[adjNode] == 0) q.offer(adjNode);
-            }
-        }
-
-        Collections.sort(result);
-
-        return result;
+        state[node] = 2; // Marked  safe
+        return true;
     }
 }
