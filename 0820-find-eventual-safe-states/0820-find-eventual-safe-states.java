@@ -7,17 +7,11 @@ class Solution {
         for(int i = 0; i < graph.length; i++) {
             adj.add(new ArrayList<>());
         }
-
-        for(int i = 0; i < graph.length; i++) {
-            for(int j = 0; j < graph[i].length; j++) {
-                outdegree[i]++; // total outdegree edges
-            }
-        }
-
         
         for(int i = 0; i < graph.length; i++) {
             for(int j = 0; j < graph[i].length; j++) {
-                adj.get(graph[i][j]).add(i); // incoming edges nodes
+                outdegree[i]++; // total outdegree edges
+                adj.get(graph[i][j]).add(i); // reverse links - incoming edges nodes
                
             }
         }
