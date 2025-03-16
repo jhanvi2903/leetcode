@@ -1,4 +1,5 @@
 class Solution {
+    // Using BFS - outdegree array & incoming edge adj list
     public List<Integer> eventualSafeNodes(int[][] graph) {
         List<List<Integer>> adj = new ArrayList<>();
          int[] outdegree = new int[graph.length];
