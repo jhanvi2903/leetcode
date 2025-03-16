@@ -19,13 +19,14 @@ class Solution {
             if(outdegree[i] == 0) q.offer(i);
         }
 
-
+       // Processing all the adjacent nodes of the terminal node
+       // If the adjacent node has only one edge to the terminal node, then it will be added to queue
        List<Integer> result = new ArrayList<>();
         while(!q.isEmpty()) {
-            int node = q.poll();
-            result.add(node);
+            int safeNode = q.poll();
+            result.add(safeNode);
 
-            for(int adjNode : adj.get(node)){
+            for(int adjNode : adj.get(safeNode)){
                 outdegree[adjNode]--;
                 if(outdegree[adjNode] == 0) q.offer(adjNode);
             }
