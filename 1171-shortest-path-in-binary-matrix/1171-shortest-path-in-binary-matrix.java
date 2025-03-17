@@ -1,14 +1,18 @@
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         
+        // Early return - no clear path
         if(grid[0][0] != 0 || grid[grid.length - 1][grid[0].length - 1] != 0) return -1;
 
         Queue<int[]> q = new LinkedList<>();
+
+        // visited array - Avoids revisiting, Prevents infinite loops, Ensures correctness:
         boolean[][] vis = new boolean[grid.length][grid[0].length];
 
         q.offer(new int[] {0, 0, 1});
         vis[0][0] = true;
 
+        // To move in 8 directions
         int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}, {1, 1}, {-1, -1}, {-1, 1}, {1, -1}};
         
         while(!q.isEmpty()) {
@@ -18,6 +22,7 @@ class Solution {
             int col = cell[1];
             int len = cell[2];
 
+            // Return, once we reach last cell
             if(row == grid.length - 1 && col == grid[0].length - 1) return len;
 
             for(int[] dir : directions) {
@@ -32,6 +37,7 @@ class Solution {
 
         }
         
+        // If the last cell was never reached, return -1 stating no clear path 
         return -1;
     }
 }
