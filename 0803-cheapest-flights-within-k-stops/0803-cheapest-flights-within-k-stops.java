@@ -29,7 +29,7 @@ class Solution {
             for(int[] adjCity : adj.get(city)) {
                 int adjCityNeigbour = adjCity[0];
                 int price = adjCity[1];
-                if(stops + 1 <= k + 1 && minCost[adjCityNeigbour] > cost + price) {
+                if(stops <= k  && minCost[adjCityNeigbour] > cost + price) {
                     minCost[adjCityNeigbour] = cost + price;
                     q.offer(new int[] {stops + 1, adjCityNeigbour, cost + price});
                 }
