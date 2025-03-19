@@ -17,7 +17,7 @@ class Solution {
            adj.get(flight[0]).add(new int[] {flight[1], flight[2]});
         }
 
-        q.offer(new int[] {0, src, 0});
+        q.offer(new int[] {0, src, 0}); // stops, city, cost
         minCost[src] = 0;
 
         while(!q.isEmpty()) {
