@@ -1,8 +1,9 @@
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
         
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
-        int[] minTime = new int[n+1];
+        // min heap, sorting based on the minimum time
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]); 
+        int[] minTime = new int[n+1]; // To return max time among all
         List<List<int[]>> adj = new ArrayList<>();
 
         for(int i = 1; i < n+1; i++) {
@@ -38,7 +39,7 @@ class Solution {
 
         int time = -1;
         for(int i = 1; i < minTime.length; i++){
-            time = Math.max(time, minTime[i]);
+            time = Math.max(time, minTime[i]); // To return max time among all
         }
 
         if(time == Integer.MAX_VALUE) {
