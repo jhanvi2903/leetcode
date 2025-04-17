@@ -1,4 +1,4 @@
-// Without using adjacency list
+// DFS - Without using adjacency list
 class Solution {
     public int findCircleNum(int[][] isConnected) {
         int rows = isConnected.length;
