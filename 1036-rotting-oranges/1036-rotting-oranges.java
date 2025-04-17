@@ -17,8 +17,9 @@ class Solution {
             }
         }
 
-        if(countFreshOrange == 0) return 0;
-        if(q.isEmpty()) return -1;
+        if(countFreshOrange == 0) return 0; // No fresh orange
+
+        if(q.isEmpty()) return -1; // It means there are no rotten range
 
         int min = -1;
         int[][] directions = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
