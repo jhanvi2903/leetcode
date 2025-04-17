@@ -1,4 +1,6 @@
 class Solution {
+    // Time complexity: O(m × n)
+    // Space complexity: O(m × n)
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
         Queue<int[]> q = new LinkedList<>();
         int originalColor = image[sr][sc];
