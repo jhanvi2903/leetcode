@@ -1,45 +1,38 @@
 class Solution {
-    // Using BFS:
-    // Time complexity = O(row * col)
-    // Space complexity = O(row * col)
     public int[][] updateMatrix(int[][] mat) {
-        int row = mat.length;
-        int col = mat[0].length;
-        int[][] vis = new int[row][col]; // visited matrix
-        int[][] dis = new int[row][col]; // distance matrix
-        Queue<int[]> q = new LinkedList<>();
+        int rows = mat.length;
+        int cols = mat[0].length;
+        int[][] directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+        Queue<int[]> queue = new ArrayDeque<>();
 
-        for(int i = 0; i < row; i++){
-            for(int j = 0; j < col; j++){
-                if(mat[i][j] == 0) {
-                    q.add(new int[] {i, j, 0});
-                    vis[i][j] = 1;
-                }
-            }
-        }
-      
-      // Early return - if only 0's are present
-       if(q.size() == row * col) return mat;
-
-       int[][] directions = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
-        while(!q.isEmpty()) {
-            int[] curr = q.poll();
-            int i = curr[0];
-            int j = curr[1];
-            int d = curr[2];
-            dis[i][j] = d; //Add distance in distance matrix
-
-            for(int[] dir : directions) {
-                int x = i + dir[0];
-                int y = j + dir[1];
-                //Add in queue if the cell is not out of bound & never visited
-                if(x >= 0 && x < row && y >= 0 && y < col && vis[x][y] != 1) {
-                  q.add(new int[]{x, y, d + 1});
-                  vis[x][y] = 1;
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (mat[i][j] == 0) {
+                    queue.add(new int[]{i, j});
+                } else {
+                    mat[i][j] = Integer.MAX_VALUE;
                 }
             }
         }
 
-        return dis;
+        if(queue.size() == rows * cols) return mat;
+
+        while (!queue.isEmpty()) {
+            int[] cell = queue.poll();
+            int row = cell[0];
+            int col = cell[1];
+
+            for (int[] direction : directions) {
+                int newRow = row + direction[0];
+                int newCol = col + direction[1];
+
+                if (newRow >= 0 && newRow < rows && newCol >= 0 && newCol < cols && mat[newRow][newCol] > mat[row][col] + 1) {
+                    mat[newRow][newCol] = mat[row][col] + 1;
+                    queue.add(new int[]{newRow, newCol});
+                }
+            }
+        }
+
+        return mat;        
     }
 }
