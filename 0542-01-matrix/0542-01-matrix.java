@@ -18,7 +18,7 @@ class Solution {
             }
         }
       
-      // Early return - if only 0's are present
+      // Early return - if only 0's are present, it will increase the execution time
        if(q.size() == row * col) return mat;
 
        int[][] directions = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
