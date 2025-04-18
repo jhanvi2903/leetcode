@@ -14,6 +14,8 @@ class Solution {
                 }
             }
         }
+      
+       if(q.size() == row * col) return mat;
 
        int[][] directions = {{1,0}, {-1, 0}, {0, 1}, {0, -1}};
         while(!q.isEmpty()) {
