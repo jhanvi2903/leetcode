@@ -1,4 +1,7 @@
 class Solution {
+    // Using BFS:
+    // Time complexity = O(row * col)
+    // Space complexity = O(row * col)
     public int[][] updateMatrix(int[][] mat) {
         int row = mat.length;
         int col = mat[0].length;
