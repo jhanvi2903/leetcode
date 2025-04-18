@@ -15,8 +15,6 @@ class Solution {
             }
         }
 
-        if(queue.size() == rows * cols) return mat;
-
         while (!queue.isEmpty()) {
             int[] cell = queue.poll();
             int row = cell[0];
