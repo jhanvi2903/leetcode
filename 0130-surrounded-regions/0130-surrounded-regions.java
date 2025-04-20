@@ -10,22 +10,22 @@ class Solution {
     
 
         for(int j = 0; j < row; j++) {
-             if(vis[j][0] != 1 && board[j][0] == 'O'){ // 1st column
+             if(board[j][0] == 'O'){ // 1st column
                 dfs(board, vis, j, 0);
             }
 
-           if(vis[j][col-1] != 1 && board[j][col-1] == 'O') { // last column
+           if(board[j][col-1] == 'O') { // last column
                 dfs(board, vis, j, col-1);
             }
         }
 
         
         for(int i = 0; i < col; i++) {
-            if(vis[0][i] != 1 && board[0][i] == 'O') { // 1st row
+            if(board[0][i] == 'O') { // 1st row
               dfs(board,vis, 0, i);  
             }
 
-            if(vis[row-1][i] != 1 && board[row-1][i] == 'O') { // last row
+            if(board[row-1][i] == 'O') { // last row
                 dfs(board,vis,row-1, i);
             }
         }
