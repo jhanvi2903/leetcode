@@ -1,13 +1,10 @@
 class Solution {
     public void solve(char[][] board) {
-
         if (board.length == 0 || board[0].length == 0 || board.length < 2 || board[0].length < 2) return;
-
-        
+    
         int row = board.length;
         int col = board[0].length;
         int[][] vis = new int[row][col]; // visited array
-    
 
         for(int j = 0; j < row; j++) {
              if(board[j][0] == 'O'){ // 1st column
@@ -18,7 +15,6 @@ class Solution {
                 dfs(board, vis, j, col-1);
             }
         }
-
         
         for(int i = 0; i < col; i++) {
             if(board[0][i] == 'O') { // 1st row
