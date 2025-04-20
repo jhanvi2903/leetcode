@@ -1,6 +1,4 @@
 class Solution {
-    int[][] dirs = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
-    
     public void solve(char[][] board) {
 
         if (board.length == 0 || board[0].length == 0 || board.length < 2 || board[0].length < 2) return;
@@ -45,6 +43,7 @@ class Solution {
     public void dfs(char[][] board, int[][] vis, int row, int col) {
         vis[row][col] = 1; // Mark visited
 
+        int[][] dirs = {{0, -1}, {0, 1}, {1, 0}, {-1, 0}};
         for (int[] dir: dirs) {
             int i = dir[0] + row;
             int j = dir[1] + col;
