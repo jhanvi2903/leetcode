@@ -1,4 +1,6 @@
-class Solution {
+class Solution {  
+// Time	Complexity : O(V + E)
+// Space Complexity : O(V)
     public boolean isBipartite(int[][] graph) {
       int rows = graph.length;
       int[] color = new int[graph.length]; // ~visited node array
