@@ -1,6 +1,8 @@
 class Solution {
+// Time complexity: O(V + E)
+// Space complexity: O(V + E)
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        // Needed: Firstly to identify source node and then to process all the incoming edges from other nodes 
+      //process all the incoming edges of a node to find source node
        int[] indegree = new int[numCourses];
 
        List<List<Integer>> adj = new ArrayList<>();
@@ -16,7 +18,7 @@ class Solution {
            adj.get(u).add(v);
        }
 
-       // Source node with the indegree 0 should be added in the Queue first
+       //Node with the indegree 0 is the source node which should be added in the Queue first so that it will be processed first
         Queue<Integer> q = new LinkedList<>(); 
         for(int i = 0; i < indegree.length; i++) {
             if(indegree[i] == 0) {
@@ -46,3 +48,8 @@ class Solution {
         return finishedCourses == numCourses ? resultCourseOrder : new int[0];
     }
 }
+
+
+// Cases where it is impossible to finish all courses:
+//1] There’s a cycle 
+//2] Self-loops 
