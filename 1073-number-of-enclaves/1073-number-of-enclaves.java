@@ -8,22 +8,22 @@ class Solution {
 
        // Traverse 1st col & last col
         for(int i = 0; i < row; i++) {
-            if(grid[i][0] == 1 && vis[i][0] != 1) {
+            if(grid[i][0] == 1) {
               dfs(grid, vis, i, 0);
             }
 
-            if(grid[i][col - 1] == 1 && vis[i][col-1] != 1){
+            if(grid[i][col - 1] == 1){
              dfs(grid, vis, i, col-1);
             }
         }
 
         // Traverse 1st row & last row
         for(int j = 0; j < col; j++) {
-            if(grid[0][j] == 1 && vis[0][j] != 1) {
+            if(grid[0][j] == 1) {
                 dfs(grid, vis, 0, j);
             }
 
-            if(grid[row-1][j] == 1 && vis[row-1][j] != 1) {
+            if(grid[row-1][j] == 1) {
                 dfs(grid, vis, row-1, j);
             }
         }
