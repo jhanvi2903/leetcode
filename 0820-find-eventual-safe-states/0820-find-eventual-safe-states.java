@@ -1,8 +1,11 @@
 class Solution {
+ // DFS approach is more efficient as compared to BFS approach   
 // DFS : using state array
 //Nodes in a cycle cannot reach a terminal node, so they are not safe.
 //A safe node always leads to a terminal node or other safe nodes.
 //Detecting cycles helps us exclude unsafe nodes and find all safe ones.
+// Time complexity: O(V + E)
+// Space complexity: O(V)
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int totalNodes = graph.length;
         int[] state = new int[totalNodes]; // 0: unvisited, 1: visiting, 2: safe
