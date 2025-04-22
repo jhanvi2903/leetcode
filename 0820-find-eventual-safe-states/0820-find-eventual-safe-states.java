@@ -1,5 +1,5 @@
 class Solution {
- // DFS approach is more efficient as compared to BFS approach   
+// DFS approach is more efficient as compared to BFS approach   
 // DFS : using state array
 //Nodes in a cycle cannot reach a terminal node, so they are not safe.
 //A safe node always leads to a terminal node or other safe nodes.
