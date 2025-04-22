@@ -4,6 +4,7 @@ class Solution {
 //Nodes in a cycle cannot reach a terminal node, so they are not safe.
 //A safe node always leads to a terminal node or other safe nodes.
 //Detecting cycles helps us exclude unsafe nodes and find all safe ones.
+// Conclusion: A node is a safe node if EVERY POSSIBLE PATH starting from that node leads to a terminal node
 // Time complexity: O(V + E)
 // Space complexity: O(V)
     public List<Integer> eventualSafeNodes(int[][] graph) {
