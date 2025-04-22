@@ -24,7 +24,7 @@ class Solution {
         state[node] = 1; // Marked visited
 
         for(int adjNode : graph[node]) {
-            if(state[adjNode] == 1 || !dfs(graph, adjNode, state)) return false; // Cycle detected
+            if(state[adjNode] == 1 || dfs(graph, adjNode, state) == false) return false; // Cycle detected
         }
 
         state[node] = 2; // Marked  safe
