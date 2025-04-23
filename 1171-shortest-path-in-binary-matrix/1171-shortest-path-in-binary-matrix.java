@@ -1,6 +1,5 @@
 // Time Complexity	O(n * m)
 // Space Complexity	O(n * m)
-
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         
@@ -44,3 +43,9 @@ class Solution {
         return -1;
     }
 }
+
+/* Note : 
+DFS is not efficient for shortest path problems because it needs to explore all possible valid paths to ensure it has found the shortest one. This is time-consuming, especially in large grids, as DFS goes deep into one path before backtracking.
+
+In contrast, BFS traverses the graph level by level. So when BFS first reaches the target cell, it's guaranteed to be via the shortest possible path (in an unweighted graph).That’s why BFS is the preferred and more efficient approach for shortest path problems in unweighted grids.
+*/
