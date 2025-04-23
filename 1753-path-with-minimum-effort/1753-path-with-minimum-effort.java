@@ -28,8 +28,7 @@ class Solution {
                 int c = col + dir[1];
 
                 if(r >= 0 && r < heights.length && c >= 0 && c < heights[0].length) {
-                    // To consider maximum distance in path
-                    // select maximum distance in path till now by comparing previous cell distance and the current cell distance = prev cell - curr cell
+                // select maximum distance in path till now by comparing the distance(d) of the previous cell (cell from which we arrived  at the current cell) and the heights[curr cell] - heights[prev cell]
                     int difference = Math.max(Math.abs(heights[r][c] - heights[row][col]), d);
                     if(dis[r][c] > difference) {
                         dis[r][c] = difference;
