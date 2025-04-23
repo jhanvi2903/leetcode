@@ -1,4 +1,7 @@
 class Solution {
+    // Time complexity :O (m * n log(m * n))
+    // Space complexity : O (m * n)
+    // Using a regular queue instead of a priority queue does not guarantee the correct result when finding a path with the minimum effort
     public int minimumEffortPath(int[][] heights) {
         int[][] dis = new int[heights.length][heights[0].length]; // to store minimum effort
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]); // min heap distance
