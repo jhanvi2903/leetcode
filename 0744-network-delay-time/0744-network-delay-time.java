@@ -1,3 +1,6 @@
+//Time Complexity: O(E log V)
+//Space Complexity: O(V + E)
+
 class Solution {
     public int networkDelayTime(int[][] times, int n, int k) {
         
