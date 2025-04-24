@@ -1,3 +1,5 @@
+//Time Complexity: O(E log V)
+//Space Complexity: O(V + E)
 class Solution {
     public int countPaths(int n, int[][] roads) {
 
