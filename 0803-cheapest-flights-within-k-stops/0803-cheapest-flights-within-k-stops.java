@@ -1,4 +1,6 @@
 class Solution {
+    // Time Complexity: O(V + E * k)
+    // Space Complexity: O(V + E)
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
 
         Queue<int[]> q = new LinkedList<>();
