@@ -1,12 +1,9 @@
 import java.util.*;
 
 class Solution {
-    // ArrayList to store the parent of each node in the DSU
-    ArrayList<Integer> parent;
-    // ArrayList to store the size of each connected component
-    ArrayList<Integer> size;
+    ArrayList<Integer> parent = new ArrayList<>();
+    ArrayList<Integer> size = new ArrayList<>();
     
-    // Returns the maximum number of stones that can be removed
     public int removeStones(int[][] stones) {
         int totalStones = stones.length;
         if (totalStones == 0) return 0;
@@ -22,14 +19,10 @@ class Solution {
         // Calculate the maximum possible index we'll need
         int maxIndex = maxRow + maxCol + 2; // +2 to handle the offset and 0-indexing
         
-        // Initialize our ArrayLists
-        parent = new ArrayList<>();
-        size = new ArrayList<>();
         
-        // Initialize each element in the ArrayLists
         for (int i = 0; i < maxIndex; i++) {
-            parent.add(i);  // Each node is initially its own parent
-            size.add(1);    // Each component initially has size 1
+            parent.add(i);  
+            size.add(1);    
         }
         
         // Union rows and columns for each stone
@@ -39,7 +32,6 @@ class Solution {
             union(row, col);
         }
         
-        // Count connected components by checking nodes that are their own parent and have size > 1
         int componentCount = 0;
         for (int i = 0; i < maxIndex; i++) {
             if (parent.get(i) == i && size.get(i) > 1) {
@@ -47,11 +39,10 @@ class Solution {
             }
         }
         
-        // Maximum stones removable = total stones - number of connected components
         return totalStones - componentCount;
     }
     
-    // Union operation to merge two components
+
     private void union(int x, int y) {
         int rootX = find(x);
         int rootY = find(y);
