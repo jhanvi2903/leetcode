@@ -3,6 +3,7 @@ class Solution {
     public int makeConnected(int n, int[][] connections) {
       // To connect n computers, we need at least n-1 cables.
       // If we don't even have that many, it's impossible.
+      // As long as there are at least (n - 1) connections, there is definitely a way to connect all computers.
        if (connections.length < n - 1) return -1;
 
        int[] parent = new int[n];
