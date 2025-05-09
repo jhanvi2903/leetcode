@@ -18,6 +18,8 @@ class Solution {
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         List<List<Integer>> result = new ArrayList<>();
 
+       // Important: If root is null, return empty list.
+       // Otherwise, without this check if root is null, accessing root.val or root.left/right later would throw a NullPointerException.
         if(root == null){
             return result;
         }
@@ -25,7 +27,7 @@ class Solution {
         queue.offer(root);
 
         while(!queue.isEmpty()){
-            int queueSize = queue.size();
+            int queueSize = queue.size(); // Crucial: this prevents processing newly added children in the same level
             List<Integer> sublist = new ArrayList<>();
             
             for(int i = 0; i < queueSize; i++){
