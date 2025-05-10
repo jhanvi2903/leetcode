@@ -34,6 +34,6 @@ public class Solution {
         diameter = Math.max(diameter, left + right); 
         
         // returns maximum height of the node + 1 (includes the current node)
-        return Math.max(left, right) + 1; 
+        return 1 + Math.max(left, right); 
     }
 }
