@@ -15,7 +15,6 @@
  */
 class Solution {
     public int maxDepth(TreeNode root) {
-        
         return usingDFS(root);
     }
 
@@ -54,3 +53,13 @@ class Solution {
         return counter;
     }
 }
+
+/*
+Time Complexity (Worst Case): O(n)
+DFS: Each node is visited exactly once during the DFS traversal.
+BFS: Each node is enqueued and dequeued exactly once during the traversal.
+
+Space Complexity (Worst Case): O(n)
+- For DFS: Due to the recursion stack as each method call is stored on the call stack until it completes execution.
+- For BFS: Due to the usage of a queue that can hold up to O(n) nodes in the worst case 
+*/
