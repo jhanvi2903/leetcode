@@ -54,7 +54,7 @@ Time complexity (worst case): O(n)
 2. Even if some subtrees are unbalanced, the worst case still requires visiting all n nodes.
 
 Space complexity (worst case): O(n)
-1. Due to the recursion stack.
+1. Due to the recursion stack as  each method call is stored on the call stack until it completes execution.
 */
 
 /*
