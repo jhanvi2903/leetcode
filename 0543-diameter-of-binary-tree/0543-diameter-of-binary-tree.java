@@ -37,3 +37,11 @@ public class Solution {
         return 1 + Math.max(left, right); 
     }
 }
+
+/*
+Time complexity (worst case): O(n)
+1. Each node is visited exactly once.
+
+Space complexity (worst case): O(n)
+1. Due to the recursion stack as  each method call is stored on the call stack until it completes execution.
+*/
