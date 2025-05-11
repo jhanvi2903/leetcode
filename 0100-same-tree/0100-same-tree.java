@@ -49,6 +49,12 @@ Space complexity (worst case): O(n)
 Preorder traversal is used here because we want to compare the current nodes first before going deeper. If the values at the root don't match, we can immediately return false without checking subtrees. Inorder or postorder would check children before verifying the current nodes, which is unnecessary and less efficient for this specific problem.
 */
 
+
+/*
+In the isSameTree function, even though recursion goes deep into the subtrees first, why is it still considered a preorder comparison? Doesn’t the recursion make it seem like we're checking children before the current node?
+Yes, even though recursive calls go deep into the left/right subtrees first, the check (p.val == q.val) is evaluated before combining results of left and right subtree comparisons. So the structure still logically follows preorder comparison, making it suitable for early termination if node values don’t match.
+*/
+
 /*
  Why Base Case 1 must come before Base Case 2 in isSameTree?
 1. In the function, we first check if both nodes are null. If we don't check this before the next condition, and only one node is null, Java will enter the second if block and return false without realizing that both were actually null (a valid match).
