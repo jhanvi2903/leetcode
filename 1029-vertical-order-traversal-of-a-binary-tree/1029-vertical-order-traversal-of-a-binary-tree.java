@@ -13,7 +13,6 @@
  *     }
  * }
  */
-
 class Tuple {
     TreeNode node;
     int row;
@@ -26,13 +25,15 @@ class Tuple {
     }
 }
 
-
 class Solution {
 
     public List<List<Integer>> verticalTraversal(TreeNode root) {
+        // TreeMap to sort the columns (left to right)
+        // Inner TreeMap to sort the rows (top to bottom)
+        // PriorityQueue to sort values at the same 
         Map<Integer, Map<Integer, PriorityQueue<Integer>>> map = new TreeMap<>();
 
-        Queue<Tuple> queue = new LinkedList<>();
+        Queue<Tuple> queue = new LinkedList<>(); // Queue for BFS traversal (level order traversal)
         queue.offer(new Tuple(root, 0, 0));
 
         while(!queue.isEmpty()) {
@@ -55,11 +56,18 @@ class Solution {
              }             
         }
 
+        
         List<List<Integer>> result = new ArrayList<>();
+
+        // Traverse the sorted columnTable: column by column
         for(Map<Integer, PriorityQueue<Integer>> colValue : map.values()){
             List<Integer> sublist = new ArrayList<>();
+
+            // Traverse each row in current column
             for(PriorityQueue<Integer> rowValues : colValue.values()) {
-                while(!rowValues.isEmpty()) sublist.add(rowValues.poll());
+                while(!rowValues.isEmpty()) {
+                    sublist.add(rowValues.poll()); // Poll ensures sorted order
+                } ; 
             }
             result.add(sublist);
         }
@@ -67,3 +75,9 @@ class Solution {
         return result;
     }
 }
+
+/*
+Time Complexity: O(n log n), where each node is traversed exactly once and pq takes log n time to insert or remove the element.
+
+Space Complexity: O(n), where n is the number of nodes in the tree.
+*/
