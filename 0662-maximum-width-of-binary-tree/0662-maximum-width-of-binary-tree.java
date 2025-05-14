@@ -34,8 +34,8 @@ class Solution {
         queue.offer(new Pair(root, 0));
 
         while(!queue.isEmpty()) {
-            int first = 0;
-            int last = 0;
+            int first = 0; // Reset per level
+            int last = 0; // Reset per level
             int size = queue.size();
 
             for(int i = 0; i < size; i++) {
@@ -57,3 +57,14 @@ class Solution {
         return maxWidth;
     }
 }
+
+/*
+Time Complexity :O(n) Each node is processed once
+Space Complexity :O(n) Queue holds nodes per level and all nodes are stored in queue
+*/
+
+/*
+Using 2 * index + 1 and 2 * index + 2 preserves the structure of a complete binary tree, even when nodes are missing. This indexing helps track the actual position of each node and includes gaps caused by nulls, which is crucial for accurately calculating the maximum width.
+
+Using a simple counterIndex++ doesn’t work because it only counts visited nodes and ignores missing ones, so it underestimates the width in sparse trees.
+*/
