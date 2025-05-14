@@ -13,56 +13,45 @@
  *     }
  * }
  */
- 
-class Solution {
-    static class Pair {
+class Pair {
     TreeNode node;
-    int pos;
+    int index;
 
-    Pair(TreeNode node, int pos){
-        this.node = node;
-        this.pos = pos;
+    public Pair(TreeNode node, int index) {
+       this.node = node;
+       this.index = index;
     }
- }
+
+}
+
+class Solution {
     public int widthOfBinaryTree(TreeNode root) {
-        Queue<Pair> q = new LinkedList<>();
+        Queue<Pair> queue = new LinkedList<>();
         int maxWidth = 0;
 
-        if(root == null){
-            return 0;
-        }
+        if(root == null) return 0;
 
-        q.offer(new Pair(root, 0));
+        queue.offer(new Pair(root, 0));
 
-        while(!q.isEmpty()){
-            int n = q.size();
+        while(!queue.isEmpty()) {
             int first = 0;
             int last = 0;
+            int size = queue.size();
 
-            for(int i = 0; i < n; i++){
-                Pair p = q.poll();
-                TreeNode currNode = p.node;
-                int position = p.pos;
+            for(int i = 0; i < size; i++) {
+                Pair pair = queue.poll();
+                TreeNode node = pair.node;
+                int index = pair.index;
 
-                if(i == 0){
-                    first = position; 
-                } 
+                if(i == 0) first = index;
+                if(i == size-1) last = index;
 
-                if(i == n-1){
-                    last = position;
-                }
+                if(node.left != null) queue.offer(new Pair(node.left, 2 * index + 1));
 
-                if(currNode.left != null) {
-                    q.offer(new Pair(currNode.left, 2*position + 1));
-                }
-
-                if(currNode.right != null){
-                    q.offer(new Pair(currNode.right, 2* position + 2));
-                }
+                if(node.right != null) queue.offer(new Pair(node.right, 2 * index + 2));
             }
-          
-          maxWidth = Math.max(maxWidth, last - first + 1);
 
+            maxWidth = Math.max(maxWidth, last - first + 1);
         }
 
         return maxWidth;
