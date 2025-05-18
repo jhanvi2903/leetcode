@@ -92,3 +92,9 @@ Consequence of not checking hm.containsKey(curr):
 4. Later, when you process this null, accessing .val or children causes a NullPointerException.
 5. This check prevents that by skipping the parent lookup when the node has no parent (i.e., it's the root).
 */
+
+/*
+Safe Behavior of HashMap.get(key):
+1. If the key is not present in the map, HashMap.get(key) simply returns null.
+2. It does not throw a NullPointerException.
+*/
