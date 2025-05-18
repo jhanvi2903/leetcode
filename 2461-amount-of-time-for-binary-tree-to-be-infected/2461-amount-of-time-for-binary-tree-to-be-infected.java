@@ -13,62 +13,58 @@
  *     }
  * }
  */
-
 class Solution {
     public int amountOfTime(TreeNode root, int start) {
-        Map<TreeNode, TreeNode> parentMap = new HashMap<>();
-
-        // Step 1: BFS to populate parentMap and find the start node
+        HashMap<TreeNode, TreeNode> childParentHashmap = new HashMap<>();
+        
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
         TreeNode startNode = null;
 
-        while (!queue.isEmpty()) {
-            TreeNode current = queue.poll();
-            if (current.val == start) {
-                startNode = current;
+        while(!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+
+            if(node.val == start) {
+                startNode = node;
             }
 
-            if (current.left != null) {
-                parentMap.put(current.left, current);
-                queue.offer(current.left);
+            if(node.left != null) {
+                childParentHashmap.put(node.left, node);
+                queue.offer(node.left);
             }
 
-            if (current.right != null) {
-                parentMap.put(current.right, current);
-                queue.offer(current.right);
+            if(node.right != null) {
+                childParentHashmap.put(node.right, node);
+                queue.offer(node.right);
             }
         }
 
-        // Step 2: BFS to simulate infection spread
-        Set<TreeNode> visited = new HashSet<>();
+        HashSet<TreeNode> vis = new HashSet<>();
         queue.offer(startNode);
-        visited.add(startNode);
+        int minutes = -1;
 
-        int time = -1;
-
-        while (!queue.isEmpty()) {
+        while(!queue.isEmpty()) {
             int size = queue.size();
-            time++;
+            minutes++;
 
-            for (int i = 0; i < size; i++) {
-                TreeNode current = queue.poll();
+            for(int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                vis.add(node);
 
-                if (current.left != null && visited.add(current.left)) {
-                    queue.offer(current.left);
+                if(node.left != null && !vis.contains(node.left)) {
+                    queue.offer(node.left);
                 }
 
-                if (current.right != null && visited.add(current.right)) {
-                    queue.offer(current.right);
+                if(node.right != null && !vis.contains(node.right)) {
+                    queue.offer(node.right);
                 }
 
-                TreeNode parent = parentMap.get(current);
-                if (parent != null && visited.add(parent)) {
-                    queue.offer(parent);
+                if(childParentHashmap.containsKey(node) && !vis.contains(childParentHashmap.get(node))) {
+                    queue.offer(childParentHashmap.get(node));
                 }
             }
         }
 
-        return time;
+        return minutes;
     }
 }
