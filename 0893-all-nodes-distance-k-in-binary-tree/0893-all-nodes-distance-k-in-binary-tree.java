@@ -31,24 +31,24 @@ class Solution {
             }
         }
 
-        HashMap<TreeNode, Integer> vis = new HashMap<>();
+        HashSet<TreeNode> vis = new HashSet<>();
         q.offer(target);
         while(k > 0 && !q.isEmpty()) {
            int size = q.size();
            for(int i = 0; i < size; i++) {
             TreeNode curr = q.poll();
-            vis.put(curr, 1);
+            vis.add(curr);
             
-            if(curr.left != null && !vis.containsKey(curr.left)) {
+            if(curr.left != null && !vis.contains(curr.left)) {
 
                 q.offer(curr.left);
             }
 
-            if(curr.right != null && !vis.containsKey(curr.right)) {
+            if(curr.right != null && !vis.contains(curr.right)) {
                 q.offer(curr.right);
             }
 
-            if(hm.containsKey(curr) && !vis.containsKey(hm.get(curr))) {
+            if(hm.containsKey(curr) && !vis.contains(hm.get(curr))) {
                 q.offer(hm.get(curr));
             }
          }
