@@ -14,24 +14,33 @@
  * }
  */
 class Solution {
-   public List<Integer> inorderTraversal(TreeNode root) {
-        Stack<TreeNode> st = new Stack<>();
+    public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
 
-        while(true){
-            if(root != null){
-                st.push(root);
-                root = root.left; // keep moving to the left until it points to the null and add the node to stack
-            }else{
-                if(st.isEmpty()){ // If stack becomes empty, then the entire binary tree is traversed
-                    break;
+        TreeNode curr = root;
+
+        while(curr != null) {
+            if(curr.left == null) {
+                result.add(curr.val);
+                curr = curr.right;
+            } else {
+                TreeNode prev = curr.left;
+                while(prev.right != null && prev.right != curr) {
+                    prev = prev.right;
                 }
-                root = st.pop();  // When the node becomes null, pop the element from stack and store its value in list 
-                result.add(root.val);
-                root = root.right; // Then move to right
+
+                if(prev.right == null) {
+                    prev.right = curr;
+                    curr = curr.left;
+                } else {
+                    prev.right = null;
+                    result.add(curr.val);
+                    curr = curr.right;
+                }
+
             }
         }
-       
+
         return result;
     }
 }
