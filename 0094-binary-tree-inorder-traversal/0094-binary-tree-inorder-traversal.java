@@ -13,6 +13,13 @@
  *     }
  * }
  */
+
+/*
+Time complexity: O(n)
+Space complexity(excluding result):	O(1)
+Space complexity(including result):	O(n)
+*/
+ 
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
