@@ -1,35 +1,30 @@
 class ParkingSystem {
-    int bigSlot;
-    int mediumSlot;
-    int smallSlot; 
+    int big;
+    int medium;
+    int small; 
 
     public ParkingSystem(int big, int medium, int small) {
-       this.bigSlot = big;
-       this.mediumSlot = medium;
-       this.smallSlot = small;      
+       this.big = big;
+       this.medium = medium;
+       this.small = small;      
     }
     
     public boolean addCar(int carType) {
-        switch(carType) {
-            case 1:
-                if(bigSlot != 0) {
-                    bigSlot--; 
-                    return true;
-                }  
-                break; 
-            case 2:
-                if(mediumSlot != 0) {
-                    mediumSlot--;
-                    return true;
-                }
-                break;
-            case 3:
-                if(smallSlot != 0) {
-                    smallSlot--;
-                    return true;
-                }
-        }
+        if(carType == 1 && big != 0) {
+               big--; 
+               return true;  
+        } 
         
+        if(carType == 2 && medium != 0) {
+                medium--;
+                return true;
+        } 
+        
+        if(carType == 3 && small != 0) {
+                small--;
+                return true;
+        }
+
         return false;
     }
 }
