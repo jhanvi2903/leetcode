@@ -296,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/jhanvi2903/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
+| [1708-design-parking-system](https://github.com/jhanvi2903/leetcode/tree/master/1708-design-parking-system) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -349,4 +350,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
+| [1708-design-parking-system](https://github.com/jhanvi2903/leetcode/tree/master/1708-design-parking-system) |
+## Simulation
+|  |
+| ------- |
+| [1708-design-parking-system](https://github.com/jhanvi2903/leetcode/tree/master/1708-design-parking-system) |
 <!---LeetCode Topics End-->
