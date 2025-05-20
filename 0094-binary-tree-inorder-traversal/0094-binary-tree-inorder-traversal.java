@@ -28,20 +28,42 @@ class Solution {
         TreeNode curr = root;
 
         while(curr != null) {
+            // Case 1: If there is no left child,
+            // print current node and move to right child
             if(curr.left == null) {
                 result.add(curr.val);
                 curr = curr.right;
             } else {
+                // Case 2: Current has a left child,
+                // Find the inorder predecessor (rightmost node in left subtree)
                 TreeNode prev = curr.left;
+
+                // Move to the rightmost node in the left subtree or
+                // stop if the thread pointing back to current already exists
                 while(prev.right != null && prev.right != curr) {
                     prev = prev.right;
                 }
 
+                 /*
+                     * Thread Creation:
+                     * - We have NOT visited this left subtree before.
+                     * - Create a temporary thread from predecessor's right to current.
+                     *   This allows us to come back to 'current' after completing the left subtree traversal without using recursion or stack.
+                     * - Move current to its left child to continue traversal.
+                     */
                 if(prev.right == null) {
-                    prev.right = curr;
-                    curr = curr.left;
+                    prev.right = curr;   // Create thread
+                    curr = curr.left;    
                 } else {
-                    prev.right = null;
+                    /*
+                     * Thread Removal:
+                     * - We have ALREADY visited the left subtree (thread exists).
+                     * - The predecessor's right pointer is pointing back to current, meaning we returned here via the thread.
+                     * - Now, remove the thread to restore original tree structure.
+                     * - Print current node's value (visiting current after left subtree).
+                     * - Move to current's right child to continue traversal.
+                     */
+                    prev.right = null;   // Remove thread
                     result.add(curr.val);
                     curr = curr.right;
                 }
