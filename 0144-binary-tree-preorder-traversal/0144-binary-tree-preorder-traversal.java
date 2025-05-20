@@ -13,6 +13,13 @@
  *     }
  * }
  */
+/*
+Morris traversal: Way to traverse a binary tree without recursion or a stack.
+Time complexity: O(n)
+Space complexity(excluding result):	O(1)
+Space complexity(including result):	O(n)
+*/
+
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
@@ -27,7 +34,7 @@ class Solution {
                 curr = curr.right;
             } else {
                 // Case 2: Current has a left child,
-                // Find the inorder predecessor (rightmost node in left subtree)
+                // Find the predecessor (rightmost node in left subtree)
                 TreeNode predecessor = curr.left;
 
                 // Move to the rightmost node in the left subtree or
@@ -36,11 +43,13 @@ class Solution {
                     predecessor = predecessor.right;
                 }
 
+                // Thread creation: first time visiting this node
                 if(predecessor.right == null) {
-                    result.add(curr.val);
+                    result.add(curr.val);   // Visit BEFORE going left (preorder)
                     predecessor.right = curr;   // Create thread
                     curr = curr.left;    
                 } else {
+                // Thread already exists: remove it and move right
                     predecessor.right = null;   // Remove thread
                     curr = curr.right;
                 }
