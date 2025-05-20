@@ -15,6 +15,7 @@
  */
 
 /*
+Morris traversal: Way to traverse a binary tree without recursion or a stack.
 Time complexity: O(n)
 Space complexity(excluding result):	O(1)
 Space complexity(including result):	O(n)
