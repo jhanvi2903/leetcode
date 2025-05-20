@@ -7,6 +7,12 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+ /*
+ Using BFS:
+ Time complexity : O(n)
+ Space complexity : O(n)
+ */
 public class Codec {
 
     // Encodes a tree to a single string.
