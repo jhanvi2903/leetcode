@@ -22,16 +22,14 @@ public class Codec {
             TreeNode node = queue.poll();
 
             if(node == null) {
-                result.append("#,");
+                result.append("# ");
             } else {
-                result.append(node.val).append(",");
+                result.append(node.val).append(" ");
 
                 queue.offer(node.left);
                 queue.offer(node.right);
             }
         }
-
-        result.setLength(result.length() - 1);
 
         return result.toString();
     }
@@ -39,11 +37,11 @@ public class Codec {
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
 
-        if(data.isEmpty()) {
+        if(data == "") {
             return null;
         }
 
-        String[] values = data.split(",");
+        String[] values = data.split(" ");
 
         TreeNode root = new TreeNode(Integer.parseInt(values[0]));
         Queue<TreeNode> q = new LinkedList<>();
