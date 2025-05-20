@@ -36,12 +36,12 @@ class Solution {
             } else {
                 // Case 2: Current has a left child,
                 // Find the inorder predecessor (rightmost node in left subtree)
-                TreeNode prev = curr.left;
+                TreeNode predecessor = curr.left;
 
                 // Move to the rightmost node in the left subtree or
                 // stop if the thread pointing back to current already exists
-                while(prev.right != null && prev.right != curr) {
-                    prev = prev.right;
+                while(predecessor.right != null && predecessor.right != curr) {
+                    predecessor = predecessor.right;
                 }
 
                  /*
@@ -51,8 +51,8 @@ class Solution {
                      *   This allows us to come back to 'current' after completing the left subtree traversal without using recursion or stack.
                      * - Move current to its left child to continue traversal.
                      */
-                if(prev.right == null) {
-                    prev.right = curr;   // Create thread
+                if(predecessor.right == null) {
+                    predecessor.right = curr;   // Create thread
                     curr = curr.left;    
                 } else {
                     /*
@@ -63,7 +63,7 @@ class Solution {
                      * - Print current node's value (visiting current after left subtree).
                      * - Move to current's right child to continue traversal.
                      */
-                    prev.right = null;   // Remove thread
+                    predecessor.right = null;   // Remove thread
                     result.add(curr.val);
                     curr = curr.right;
                 }
