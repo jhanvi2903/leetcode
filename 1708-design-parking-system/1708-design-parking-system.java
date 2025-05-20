@@ -10,23 +10,26 @@ class ParkingSystem {
     }
     
     public boolean addCar(int carType) {
-        if(carType == 1) {
-            if(bigSlot != 0) {
-               bigSlot--; 
-               return true;
-            }   
-        } else if(carType == 2) {
-            if(mediumSlot != 0) {
-                mediumSlot--;
-                return true;
-            }
-        } else if(carType == 3) {
-            if(smallSlot != 0) {
-                smallSlot--;
-                return true;
-            }
+        switch(carType) {
+            case 1:
+                if(bigSlot != 0) {
+                    bigSlot--; 
+                    return true;
+                }  
+                break; 
+            case 2:
+                if(mediumSlot != 0) {
+                    mediumSlot--;
+                    return true;
+                }
+                break;
+            case 3:
+                if(smallSlot != 0) {
+                    smallSlot--;
+                    return true;
+                }
         }
-
+        
         return false;
     }
 }
