@@ -13,6 +13,9 @@
  *     }
  * }
  */
+
+ // Using DFS iterative approach
+ // Evaluated using normal preorder traversal: As pop follows root->left->right order
 class Solution {
     public void flatten(TreeNode root) {
         Stack<TreeNode> st = new Stack<>();
