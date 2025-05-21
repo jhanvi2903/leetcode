@@ -13,28 +13,24 @@
  *     }
  * }
  */
-
- // Using DFS iterative approach
- // Evaluated using normal preorder traversal: As pop follows root->left->right order
 class Solution {
     public void flatten(TreeNode root) {
-        Stack<TreeNode> st = new Stack<>();
-
         if(root == null) return;
 
-        st.push(root);
+        TreeNode curr = root;
 
-        while(!st.isEmpty()) {
-            TreeNode curr = st.pop();
+        while(curr != null) {
+            if(curr.left != null) {
+                TreeNode prev = curr.left;
 
-            if(curr.right != null) st.push(curr.right);
-            if(curr.left != null) st.push(curr.left);
+                while(prev.right != null) prev = prev.right;
 
-            if(!st.isEmpty()) {
-                curr.right = st.peek();
+                prev.right = curr.right;
+                curr.right = curr.left;
+                curr.left = null;
             }
 
-            curr.left = null;
+            curr = curr.right;
         }
         
     }
