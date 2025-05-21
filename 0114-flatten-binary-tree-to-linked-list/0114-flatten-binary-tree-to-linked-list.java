@@ -13,6 +13,8 @@
  *     }
  * }
  */
+
+// Using DFS recursion: Evaluated in reverse pre-order traversal approach
 class Solution {
     TreeNode prev = null;
     public void flatten(TreeNode root) {
