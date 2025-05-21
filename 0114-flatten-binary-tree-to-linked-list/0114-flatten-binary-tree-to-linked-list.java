@@ -13,6 +13,8 @@
  *     }
  * }
  */
+
+ // Most optimized: Using Morris traversal with O(1) space complexity
 class Solution {
     public void flatten(TreeNode root) {
         if(root == null) return;
