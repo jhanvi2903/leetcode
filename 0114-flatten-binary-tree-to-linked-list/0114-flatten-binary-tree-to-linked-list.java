@@ -13,19 +13,26 @@
  *     }
  * }
  */
-
-// Using DFS recursion: Evaluated in reverse pre-order traversal approach
 class Solution {
-    TreeNode prev = null;
     public void flatten(TreeNode root) {
+        Stack<TreeNode> st = new Stack<>();
+
         if(root == null) return;
 
-        flatten(root.right);
-        flatten(root.left);
+        st.push(root);
 
-        root.right = prev;
-        root.left = null;
+        while(!st.isEmpty()) {
+            TreeNode curr = st.pop();
 
-        prev = root;
+            if(curr.right != null) st.push(curr.right);
+            if(curr.left != null) st.push(curr.left);
+
+            if(!st.isEmpty()) {
+                curr.right = st.peek();
+            }
+
+            curr.left = null;
+        }
+        
     }
 }
