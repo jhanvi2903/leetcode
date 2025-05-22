@@ -14,32 +14,29 @@
  * }
  */
 class Solution {
+    HashMap<Integer, Integer> hm = new HashMap<>();
+    int postorderIndex;
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        HashMap<Integer, Integer> hm = new HashMap<>();
+         postorderIndex = postorder.length-1;
 
-        if(inorder.length != postorder.length) {
-            return null;
-        }
+         for(int i = 0; i < inorder.length; i++) {
+            hm.put(inorder[i], i);
+         }
 
-        for(int i = 0; i < inorder.length; i++) {
-              hm.put(inorder[i] , i);
-        }
+         TreeNode root = build(postorder, 0, inorder.length-1);
 
-        return build(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1, hm);
+         return root;      
     }
 
-    private TreeNode build(int[] inorder, int inStart, int inEnd, int[] postorder, int postStart, int postEnd, HashMap<Integer, Integer> hm) {
+    private TreeNode build(int postorder[], int start,int end) {
+        if(start > end) return null;
 
-        if(inStart > inEnd || postStart > postEnd) {
-            return null;
-        }
+        int rootValue = postorder[postorderIndex--];
+        TreeNode root = new TreeNode(rootValue);
+        int mid = hm.get(rootValue);
 
-        TreeNode root = new TreeNode(postorder[postEnd]);
-        int mid = hm.get(postorder[postEnd]);
-        int leftTotalNum = mid - inStart;
-
-        root.left = build(inorder, inStart, mid - 1, postorder, postStart, postStart + leftTotalNum - 1, hm);
-        root.right = build(inorder, mid + 1, inEnd, postorder,postStart + leftTotalNum , postEnd - 1, hm);
+        root.right = build(postorder, mid+1, end);
+        root.left = build(postorder, start, mid-1);
 
         return root;
     }
