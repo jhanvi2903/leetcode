@@ -23,22 +23,20 @@ class Solution {
             hm.put(inorder[i], i);
         }
 
-        return build(inorder, 0, inorder.length - 1, preorder, 0, preorder.length - 1);
+        return build(preorder, 0, inorder.length - 1);
     }
 
-    private TreeNode build(int[] inorder, int inStart, int inEnd, int[] preorder, int preStart, int preEnd) {
-        if(inStart > inEnd || preStart > preEnd) {
+    private TreeNode build(int[] preorder, int start, int end) {
+        if(start > end) {
             return null;
         }
 
-        int rootVal = preorder[preStart];
+        int rootVal = preorder[preorderIndex++];
         TreeNode root = new TreeNode(rootVal);
+        int mid = hm.get(rootVal);
 
-        int mid = hm.get(rootVal); // Index of the root in inorder
-        int nums = mid - inStart; // Number of elements on the left subtree in inorder
-
-        root.left = build(inorder, inStart, mid - 1, preorder, preStart + 1, preStart + nums);
-        root.right = build(inorder, mid + 1, inEnd, preorder, preStart + nums + 1, preEnd);
+        root.left = build(preorder, start, mid - 1);
+        root.right = build(preorder, mid + 1, end);
 
         return root;
     }
