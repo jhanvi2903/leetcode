@@ -13,6 +13,8 @@
  *     }
  * }
  */
+// Time Complexity: O(n)
+// Space Complexity: O(n) (including recursion stack + hashmap)
 class Solution {
     int preorderIndex = 0;
     HashMap<Integer, Integer> hm = new HashMap<>();
