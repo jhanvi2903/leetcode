@@ -13,6 +13,13 @@
  *     }
  * }
  */
+// Time Complexity	
+// Balanced BST:  	O(log n)
+// Skewed BST (worst case):	O(n)	
+
+// Space Complexity
+// Balanced BST:   O(1)
+// Skewed BST (worst case)	:  O(1)
 class Solution {
     public TreeNode searchBST(TreeNode root, int val) {
 
