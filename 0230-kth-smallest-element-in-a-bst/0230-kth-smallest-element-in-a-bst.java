@@ -13,6 +13,10 @@
  *     }
  * }
  */
+
+// morris inorder traversal - no extra space
+// time complexity: O(n)
+// space complexity: O(1) 
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         TreeNode curr = root;
