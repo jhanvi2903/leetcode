@@ -13,6 +13,12 @@
  *     }
  * }
  */
+
+ /*
+ Approach : Preorder traversal (Checking the node's value if it is in range or not)
+ Time complexity: O(n)
+ Space complexity: O(n)
+ */
 class Solution {
     public boolean isValidBST(TreeNode root) {
         boolean result = helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
