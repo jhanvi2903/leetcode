@@ -13,6 +13,11 @@
  *     }
  * }
  */
+
+ /*
+ Time Complexity: O(n)
+ Space Complexity: O(n)
+ */
 class Solution {
      int i = 0;
     public TreeNode bstFromPreorder(int[] preorder) {
