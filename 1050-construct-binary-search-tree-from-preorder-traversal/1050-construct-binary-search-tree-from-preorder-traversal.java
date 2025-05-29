@@ -30,13 +30,3 @@ class Solution {
         return root;
     }
 }
-
-  // if(preorder[i] < root.val) {
-        //     root.left = new TreeNode(preorder[i++]);
-        //     helper(root.left, preorder, min, root.left.val);
-        // }
-
-        // if(i < preorder.length && preorder[i] > root.val) {
-        //     root.right = new TreeNode(preorder[i++]);
-        //     helper(root.right, preorder, root.right.val, max);
-        // }
