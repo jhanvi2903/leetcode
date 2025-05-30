@@ -14,49 +14,31 @@
  * }
  */
 class Solution {
-    int index = 0;
+    TreeNode prev = null, first = null, second = null;
     public void recoverTree(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        inorderTraversal(root, list);
+        inorder(root);
 
-        int first = -1;
-        int middle = -1;
-
-        for(int i = 1; i < list.size(); i++) {
-            if(list.get(i-1) > list.get(i)) {
-                if(first == -1) {
-                    first = i-1;
-                    middle = i;
-                } else {
-                    middle = i;
-                }            
-            } 
+        if(first != null && second != null) {
+            int temp = first.val;
+            first.val = second.val;
+            second.val = temp;
         }
-
-        int temp;
-        temp = list.get(first);
-        list.set(first, list.get(middle));
-        list.set(middle, temp);
-
-        inorderTra(root, list);
     }
 
-    private void inorderTraversal(TreeNode root, List<Integer> list) {
+    private void inorder(TreeNode root) {
         if(root == null) return;
 
-        inorderTraversal(root.left, list);
-        list.add(root.val);
-        inorderTraversal(root.right, list);
-    }
+        inorder(root.left);
 
-    private void inorderTra(TreeNode root, List<Integer> list) {
-        if(root == null) return;
-
-        inorderTra(root.left, list);
-        if(root.val != list.get(index)) {
-            root.val = list.get(index);
+        if(prev != null && root.val < prev.val) {
+            if(first == null) {
+                first = prev;
+            }
+            second = root;
         }
-        index++;
-        inorderTra(root.right, list);
+
+        prev = root;
+
+        inorder(root.right);
     }
 }
