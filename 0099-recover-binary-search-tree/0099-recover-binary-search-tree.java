@@ -18,26 +18,7 @@ class Solution {
     public void recoverTree(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         inorderTraversal(root, list);
-
-        // int first = -1;
-        // int middle = -1;
-
-        // for(int i = 1; i < list.size(); i++) {
-        //     if(first == -1 && list.get(i-1) > list.get(i)) {
-        //         first = i-1;
-        //         middle = i;
-        //     } else {
-        //         middle = i;
-        //     }
-        // }
-
-        // int temp;
-        // temp = list.get(first);
-        // list.set(first, list.get(middle));
-        // list.set(middle, temp);
-
         Collections.sort(list);
-
         inorderTra(root, list);
     }
 
