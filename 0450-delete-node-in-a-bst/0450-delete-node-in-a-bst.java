@@ -13,6 +13,11 @@
  *     }
  * }
  */
+
+ /*
+ Time complexity: O(n)
+ Space complexity: O(n)
+ */
 class Solution {
     public TreeNode deleteNode(TreeNode root, int key) {
         if(root == null) {
