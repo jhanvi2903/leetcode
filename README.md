@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/jhanvi2903/leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jhanvi2903/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2646-kth-largest-sum-in-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/jhanvi2903/leetcode/tree/master/2384-root-equals-sum-of-children) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jhanvi2903/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2646-kth-largest-sum-in-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -167,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1442-number-of-operations-to-make-network-connected](https://github.com/jhanvi2903/leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1753-path-with-minimum-effort](https://github.com/jhanvi2903/leetcode/tree/master/1753-path-with-minimum-effort) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/jhanvi2903/leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2646-kth-largest-sum-in-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -268,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2646-kth-largest-sum-in-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 ## Math
 |  |
 | ------- |
