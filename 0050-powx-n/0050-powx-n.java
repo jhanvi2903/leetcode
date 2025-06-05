@@ -30,4 +30,6 @@ class Solution {
 The time complexity is O(log₂ |n|) because in each loop iteration, we reduce n by half using right shift (n >>= 1). So the number of steps is proportional to the number of bits in n, which is log₂ |n|.
 
 Space complexity : O(1)
+
+Note: We use long N = n; to safely handle the edge case when n == Integer.MIN_VALUE (which can't be negated as an int). Converting to long avoids overflow when we do N = -N.
 */
