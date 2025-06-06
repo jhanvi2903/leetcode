@@ -330,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/jhanvi2903/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0008-string-to-integer-atoi](https://github.com/jhanvi2903/leetcode/tree/master/0008-string-to-integer-atoi) |
+| [0022-generate-parentheses](https://github.com/jhanvi2903/leetcode/tree/master/0022-generate-parentheses) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
 | [0257-binary-tree-paths](https://github.com/jhanvi2903/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -352,6 +353,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/jhanvi2903/leetcode/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/jhanvi2903/leetcode/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jhanvi2903/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/jhanvi2903/leetcode/tree/master/0022-generate-parentheses) |
 | [0257-binary-tree-paths](https://github.com/jhanvi2903/leetcode/tree/master/0257-binary-tree-paths) |
 ## Design
 |  |
