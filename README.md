@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/jhanvi2903/leetcode/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/jhanvi2903/leetcode/tree/master/0222-count-complete-tree-nodes) |
 ## Linked List
 |  |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/jhanvi2903/leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/jhanvi2903/leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/jhanvi2903/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -418,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/jhanvi2903/leetcode/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/jhanvi2903/leetcode/tree/master/0078-subsets) |
 | [0257-binary-tree-paths](https://github.com/jhanvi2903/leetcode/tree/master/0257-binary-tree-paths) |
 ## Design
 |  |
