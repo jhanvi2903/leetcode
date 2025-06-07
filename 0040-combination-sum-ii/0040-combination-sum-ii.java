@@ -16,15 +16,13 @@ class Solution {
 
         for(int i = index; i < candidates.length; i++) {
             if(i > index && candidates[i] == candidates[i-1]) continue;
-            if(target < sum) break;
+            if(target < sum + candidates[i]) break;
 
 
             subset.add(candidates[i]);
             helper(candidates, target, subset, result, i + 1, sum + candidates[i]);
 
             subset.remove(subset.size() - 1);
-        }
-        
-    
+        }  
     }
 }
