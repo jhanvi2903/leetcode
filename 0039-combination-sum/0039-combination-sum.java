@@ -13,7 +13,7 @@ class Solution {
             return;
         }
 
-        if(sum > target || index >= candidates.length) {
+        if(sum > target || index == candidates.length) {
             return;
         }
 
