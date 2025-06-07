@@ -8,13 +8,13 @@ class Solution {
     }
 
     private void helper(int[] candidates, int target,  List<Integer> subset, List<List<Integer>> result, int index, int sum) {
-        if(target == sum) {
-            result.add(new ArrayList<>(subset));
+         if(sum > target) {
             return;
         }
 
-        if(sum > target || index == candidates.length) {
-            return;
+        if(index == candidates.length) {
+             if(target == sum) result.add(new ArrayList<>(subset));           
+              return;
         }
 
         subset.add(candidates[index]);
