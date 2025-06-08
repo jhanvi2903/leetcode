@@ -2,7 +2,7 @@ class Solution {
     public List<String> letterCombinations(String digits) {
         List<String> result = new ArrayList<>();
 
-        if(digits == null || digits.length() == 0) return result;
+        if(digits.length() == 0) return result;
 
         Map<Character, String> digitToLetters = new HashMap<>();
         digitToLetters.put('2', "abc");
