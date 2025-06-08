@@ -19,3 +19,20 @@ class Solution {
 
     }
 }
+
+/*
+Note:
+
+Time complexity for inserting element in hashSet/ HashMap:
+ for 1 element : O(1)
+ for n element : O(n)
+
+ Time complexity for inserting element in TreeSet/ TreeMap/ PriorityQueue:
+ for 1 element : O(log n)
+ for n element : O(n log n)
+
+ Brute Force : Use pick and don't pick approach
+ sort the array so that elements will appear in sorted order
+ use set of list so that duplicate subset will not be stored
+ then put the element from set to list and then return the list
+*/
