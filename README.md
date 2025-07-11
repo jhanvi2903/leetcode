@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 | [0560-subarray-sum-equals-k](https://github.com/jhanvi2903/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/jhanvi2903/leetcode/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/jhanvi2903/leetcode/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/jhanvi2903/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 | [0257-binary-tree-paths](https://github.com/jhanvi2903/leetcode/tree/master/0257-binary-tree-paths) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
@@ -371,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/jhanvi2903/leetcode/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jhanvi2903/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/jhanvi2903/leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jhanvi2903/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/jhanvi2903/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
@@ -466,4 +470,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/jhanvi2903/leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
