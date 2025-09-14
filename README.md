@@ -299,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/jhanvi2903/leetcode/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1646-kth-missing-positive-number](https://github.com/jhanvi2903/leetcode/tree/master/1646-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/jhanvi2903/leetcode/tree/master/1753-path-with-minimum-effort) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/jhanvi2903/leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 ## Sorting
 |  |
 | ------- |
