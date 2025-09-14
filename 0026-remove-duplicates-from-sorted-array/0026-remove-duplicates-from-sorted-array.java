@@ -3,7 +3,7 @@ class Solution {
         int i = 0; // To track Unique elements
 
         // j : To find Unique elements
-        for(int j = 0; j < nums.length; j++) {
+        for(int j = 1; j < nums.length; j++) {
             if(nums[i] != nums[j]) {
                 nums[i + 1] = nums[j];
                 i++;
