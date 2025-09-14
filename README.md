@@ -282,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/jhanvi2903/leetcode/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/jhanvi2903/leetcode/tree/master/0560-subarray-sum-equals-k) |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
+| [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
