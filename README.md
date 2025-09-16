@@ -199,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/jhanvi2903/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/jhanvi2903/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [1046-max-consecutive-ones-iii](https://github.com/jhanvi2903/leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1646-kth-missing-positive-number](https://github.com/jhanvi2903/leetcode/tree/master/1646-kth-missing-positive-number) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/jhanvi2903/leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/jhanvi2903/leetcode/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/jhanvi2903/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 ## Linked List
 |  |
 | ------- |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
+| [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/jhanvi2903/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
@@ -288,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/jhanvi2903/leetcode/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -311,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/jhanvi2903/leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -323,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/jhanvi2903/leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/jhanvi2903/leetcode/tree/master/0070-climbing-stairs) |
 | [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0805-escape-the-ghosts](https://github.com/jhanvi2903/leetcode/tree/master/0805-escape-the-ghosts) |
 ## Union Find
 |  |
