@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/jhanvi2903/leetcode/tree/master/0061-rotate-list) |
+| [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/jhanvi2903/leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/jhanvi2903/leetcode/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
+| [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/jhanvi2903/leetcode/tree/master/0216-combination-sum-iii) |
@@ -318,6 +320,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/jhanvi2903/leetcode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/jhanvi2903/leetcode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/jhanvi2903/leetcode/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0805-escape-the-ghosts](https://github.com/jhanvi2903/leetcode/tree/master/0805-escape-the-ghosts) |
 ## Union Find
 |  |
