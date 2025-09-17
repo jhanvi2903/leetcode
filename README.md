@@ -294,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
+| [0485-max-consecutive-ones](https://github.com/jhanvi2903/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/jhanvi2903/leetcode/tree/master/0560-subarray-sum-equals-k) |
