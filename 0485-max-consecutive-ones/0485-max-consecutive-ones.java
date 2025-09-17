@@ -7,11 +7,13 @@ class Solution {
             if(nums[i] == 1) {
                count++;
             } else {
+                maxOnesCount = Math.max(maxOnesCount, count);
                 count = 0;
             }
-            maxOnesCount = Math.max(maxOnesCount, count);
         } 
 
+        maxOnesCount = Math.max(maxOnesCount, count);
+        
         return maxOnesCount;
     }
 }
