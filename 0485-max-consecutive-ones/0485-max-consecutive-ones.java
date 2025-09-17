@@ -3,8 +3,8 @@ class Solution {
         int maxOnesCount = 0;
 
         int count = 0;
-        for(int i = 0; i < nums.length; i++) {
-            if(nums[i] == 1) {
+        for(int num : nums) {
+            if(num == 1) {
                count++;
             } else {
                 maxOnesCount = Math.max(maxOnesCount, count);
@@ -13,7 +13,7 @@ class Solution {
         } 
 
         maxOnesCount = Math.max(maxOnesCount, count);
-        
+
         return maxOnesCount;
     }
 }
