@@ -197,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/jhanvi2903/leetcode/tree/master/0035-search-insert-position) |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/jhanvi2903/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/jhanvi2903/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0222-count-complete-tree-nodes](https://github.com/jhanvi2903/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
@@ -230,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/jhanvi2903/leetcode/tree/master/0061-rotate-list) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/jhanvi2903/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0283-move-zeroes) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/jhanvi2903/leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/jhanvi2903/leetcode/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/jhanvi2903/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
