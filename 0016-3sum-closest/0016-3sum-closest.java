@@ -15,7 +15,6 @@ class Solution {
                     result = currSum;
                 }
                
-
                 if(currSum > target) {
                     right--;
                 } else if(currSum < target){
