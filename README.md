@@ -288,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/jhanvi2903/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/jhanvi2903/leetcode/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/jhanvi2903/leetcode/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/jhanvi2903/leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/jhanvi2903/leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
@@ -411,6 +412,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/jhanvi2903/leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/jhanvi2903/leetcode/tree/master/0022-generate-parentheses) |
+| [0053-maximum-subarray](https://github.com/jhanvi2903/leetcode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/jhanvi2903/leetcode/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/jhanvi2903/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/jhanvi2903/leetcode/tree/master/0131-palindrome-partitioning) |
@@ -432,6 +434,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/jhanvi2903/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/jhanvi2903/leetcode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
