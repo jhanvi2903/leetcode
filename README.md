@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/jhanvi2903/leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/jhanvi2903/leetcode/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/jhanvi2903/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jhanvi2903/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
@@ -414,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/jhanvi2903/leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/jhanvi2903/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
+| [0152-maximum-product-subarray](https://github.com/jhanvi2903/leetcode/tree/master/0152-maximum-product-subarray) |
 | [0542-01-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/jhanvi2903/leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/jhanvi2903/leetcode/tree/master/2090-number-of-ways-to-arrive-at-destination) |
