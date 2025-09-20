@@ -1,18 +1,13 @@
 class Solution {
     public int maxSubArray(int[] nums) {
+        int sum = 0;
+        int maxSum = Integer.MIN_VALUE;
 
-        int max = nums[0];
-        int sum = nums[0];
-
-        for(int i = 1; i < nums.length; i++){
-            //Check the single number & the same number added to sum
-             sum = Math.max(sum + nums[i], nums[i]); 
-
-             //Check the new sum and the previous sum stored in max
-             max = Math.max(max, sum); 
+        for(int num: nums) {
+            sum = Math.max(sum + num, num);
+            maxSum = Math.max(maxSum, sum);
         }
 
-        return max;
-        
+        return maxSum;       
     }
 }
