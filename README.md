@@ -234,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/jhanvi2903/leetcode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/jhanvi2903/leetcode/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/jhanvi2903/leetcode/tree/master/0075-sort-colors) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jhanvi2903/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0283-move-zeroes) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/jhanvi2903/leetcode/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0075-sort-colors](https://github.com/jhanvi2903/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/jhanvi2903/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/jhanvi2903/leetcode/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/jhanvi2903/leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -337,6 +339,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/jhanvi2903/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/jhanvi2903/leetcode/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
+| [0075-sort-colors](https://github.com/jhanvi2903/leetcode/tree/master/0075-sort-colors) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
