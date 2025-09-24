@@ -11,46 +11,33 @@
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = null;
-        ListNode tail = null;
+        ListNode curr = null;
 
-        if(list1 == null) {
-            return list2;
-        }
+        if(list1 == null) return list2;
+        if(list2 == null) return list1;
 
-        if(list2 == null) {
-            return list1;
-        }
-
-        // Decide where the head should point
         if(list1.val <= list2.val) {
-           head = tail = list1;
-           list1 = list1.next;
-        }else {
-            head = tail = list2;
+            head = curr = list1;
+            list1 = list1.next;
+        } else {
+            head = curr = list2;
             list2 = list2.next;
-
         }
 
-        // Keep moving tail based on the condition
         while(list1 != null && list2 != null) {
             if(list1.val <= list2.val) {
-                tail.next = list1;
-                tail = list1;
+                curr.next = list1;
+                curr = list1;
                 list1 = list1.next;
-            }else {
-                tail.next = list2;
-                tail = list2;
+            } else {
+                curr.next = list2;
+                curr = list2;
                 list2 = list2.next;
-            } 
+            }
         }
 
-        // Check if any of the list is not traversed, join it by tails next
-        if(list1 != null) {
-            tail.next = list1;
-        } else {
-            tail.next = list2;
-        }
+        curr.next = (list1 == null) ? list2 : list1;
 
-        return head;
+        return head;     
     }
 }
