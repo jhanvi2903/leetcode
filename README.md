@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/jhanvi2903/leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/jhanvi2903/leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/jhanvi2903/leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/jhanvi2903/leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/jhanvi2903/leetcode/tree/master/0216-combination-sum-iii) |
+| [0229-majority-element-ii](https://github.com/jhanvi2903/leetcode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/jhanvi2903/leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/jhanvi2903/leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/jhanvi2903/leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/jhanvi2903/leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/jhanvi2903/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0229-majority-element-ii](https://github.com/jhanvi2903/leetcode/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/jhanvi2903/leetcode/tree/master/0268-missing-number) |
 | [0414-third-maximum-number](https://github.com/jhanvi2903/leetcode/tree/master/0414-third-maximum-number) |
 | [0721-accounts-merge](https://github.com/jhanvi2903/leetcode/tree/master/0721-accounts-merge) |
@@ -435,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jhanvi2903/leetcode/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/jhanvi2903/leetcode/tree/master/0229-majority-element-ii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/jhanvi2903/leetcode/tree/master/1034-subarrays-with-k-different-integers) |
 | [1708-design-parking-system](https://github.com/jhanvi2903/leetcode/tree/master/1708-design-parking-system) |
 ## Divide and Conquer
