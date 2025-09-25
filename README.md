@@ -236,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0061-rotate-list](https://github.com/jhanvi2903/leetcode/tree/master/0061-rotate-list) |
 | [0075-sort-colors](https://github.com/jhanvi2903/leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/jhanvi2903/leetcode/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/jhanvi2903/leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jhanvi2903/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/jhanvi2903/leetcode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0283-move-zeroes) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/jhanvi2903/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/jhanvi2903/leetcode/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/jhanvi2903/leetcode/tree/master/0079-word-search) |
+| [0125-valid-palindrome](https://github.com/jhanvi2903/leetcode/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/jhanvi2903/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
