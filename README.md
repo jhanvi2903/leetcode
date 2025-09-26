@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/jhanvi2903/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/jhanvi2903/leetcode/tree/master/0139-word-break) |
 | [0169-majority-element](https://github.com/jhanvi2903/leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/jhanvi2903/leetcode/tree/master/0229-majority-element-ii) |
@@ -306,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/jhanvi2903/leetcode/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/jhanvi2903/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/jhanvi2903/leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/jhanvi2903/leetcode/tree/master/0137-single-number-ii) |
@@ -371,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/jhanvi2903/leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/jhanvi2903/leetcode/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/jhanvi2903/leetcode/tree/master/0547-number-of-provinces) |
