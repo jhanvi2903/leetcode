@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/jhanvi2903/leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jhanvi2903/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/jhanvi2903/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0073-set-matrix-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/jhanvi2903/leetcode/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/jhanvi2903/leetcode/tree/master/0127-word-ladder) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/jhanvi2903/leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/jhanvi2903/leetcode/tree/master/0056-merge-intervals) |
 | [0066-plus-one](https://github.com/jhanvi2903/leetcode/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/jhanvi2903/leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/jhanvi2903/leetcode/tree/master/0078-subsets) |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/jhanvi2903/leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/jhanvi2903/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/jhanvi2903/leetcode/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/jhanvi2903/leetcode/tree/master/0130-surrounded-regions) |
