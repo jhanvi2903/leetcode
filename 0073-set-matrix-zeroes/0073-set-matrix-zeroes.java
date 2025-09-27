@@ -3,7 +3,6 @@ class Solution {
         int rowLength = matrix.length;
         int colLength = matrix[0].length;
 
-
         boolean[] zeroRows = new boolean[rowLength];
         boolean[] zeroCols = new boolean[colLength];
 
