@@ -16,7 +16,7 @@ class Solution {
         }
 
         for(int row = 0; row < zeroRows.length; row++) {
-            if(zeroRows[row] == true) {
+            if(zeroRows[row]) {
                 for(int col = 0 ; col < colLength; col++) {
                     matrix[row][col] = 0;
                 }
@@ -24,7 +24,7 @@ class Solution {
         }
 
          for(int col = 0; col < zeroCols.length; col ++) {
-            if(zeroCols[col] == true) {
+            if(zeroCols[col]) {
                 for(int row = 0 ; row < rowLength; row++) {
                     matrix[row][col] = 0;
                 }
