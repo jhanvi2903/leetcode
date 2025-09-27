@@ -1,35 +1,54 @@
 class Solution {
     public void setZeroes(int[][] matrix) {
-        int rowLength = matrix.length;
-        int colLength = matrix[0].length;
+        int zerothCol = 1;
 
-        boolean[] zeroRows = new boolean[rowLength];
-        boolean[] zeroCols = new boolean[colLength];
+        for(int row = 0; row < matrix.length; row++) {
+            if(matrix[row][0] == 0) {
+                zerothCol = 0;
+            }
+        }
 
-        for(int row = 0; row < rowLength; row++) {
-            for(int col = 0; col < colLength; col++) {
+        for(int col = 0; col < matrix[0].length; col++) {
+            if(matrix[0][col] == 0) {
+                matrix[0][0] = 0;
+            }
+        }
+
+        for(int row = 1; row < matrix.length; row++) {
+            for(int col = 1; col < matrix[0].length; col++) {
                 if(matrix[row][col] == 0) {
-                    zeroRows[row] = true;
-                    zeroCols[col] = true;
+                    matrix[row][0] = 0;
+                    matrix[0][col] = 0;
                 }
             }
         }
 
-        for(int row = 0; row < zeroRows.length; row++) {
-            if(zeroRows[row]) {
-                for(int col = 0 ; col < colLength; col++) {
+        for(int row = 1; row < matrix.length; row++) {
+            if(matrix[row][0] == 0) {
+                for(int col = 1; col < matrix[0].length; col++) {
                     matrix[row][col] = 0;
                 }
             }
         }
 
-         for(int col = 0; col < zeroCols.length; col ++) {
-            if(zeroCols[col]) {
-                for(int row = 0 ; row < rowLength; row++) {
+        for(int col = 1; col < matrix[0].length; col++) {
+            if(matrix[0][col] == 0) {
+                for(int row = 1; row < matrix.length; row++) {
                     matrix[row][col] = 0;
                 }
             }
         }
-        
+
+        if(matrix[0][0] == 0) {
+            for(int col = 1; col < matrix[0].length; col++) {
+                matrix[0][col] = 0;
+            }
+        }
+
+        if(zerothCol == 0) {
+            for(int row = 0; row < matrix.length; row++) {
+                matrix[row][0] = 0;
+            }
+        }
     }
 }
