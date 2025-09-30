@@ -23,8 +23,7 @@ class Solution {
             }
             swap(breakPointIndex, j, nums);  
             reverse(breakPointIndex + 1, n - 1, nums);
-        }
-       
+        }    
     }
 
     private void swap(int left, int right, int[] nums) { 
