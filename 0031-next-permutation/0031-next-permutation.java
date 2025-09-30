@@ -12,11 +12,7 @@ class Solution {
 
         if(breakPointIndex == - 1) {
             reverse(0, n - 1, nums);
-            return;
-        }
-
-        
-        if(breakPointIndex >= 0) {
+        } else {
             int j = n - 1;
             while(nums[j] <= nums[breakPointIndex]) {
                 j--;
@@ -24,6 +20,7 @@ class Solution {
             swap(breakPointIndex, j, nums);  
             reverse(breakPointIndex + 1, n - 1, nums);
         }    
+        
     }
 
     private void swap(int left, int right, int[] nums) { 
